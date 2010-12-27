@@ -37,19 +37,19 @@ class TuiyoVersion
     var $RELEASE = '2.0';
     /**
      *  *  * @var string Development Status */
-    var $DEV_STATUS = 'alpha';
+    var $DEV_STATUS = 'alpha 1';
     /**
      *  *  * @var int Sub Release Level */
     var $DEV_LEVEL = '0';
     /**
      *  *  * @var int build Number */
-    var $BUILD = '18';
+    var $BUILD = '0';
     /**
      *  *  * @var string Codename */
     var $CODENAME = 'Zanya';
     /**
      *  *  * @var string Date */
-    var $RELDATE = '04-Januar-2011';
+    var $RELDATE = '27-December-2010';
     /**
      *  *  * @var string Time */
     var $RELTIME = '00:00';
