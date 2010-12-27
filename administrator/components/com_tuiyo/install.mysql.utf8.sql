@@ -1,5 +1,5 @@
 DROP TABLE IF EXISTS `#__tuiyo_albums`;
-CREATE TABLE `#__tuiyo_albums` (
+CREATE TABLE  `#__tuiyo_albums` (
   `aid` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `ownerid` int(10) unsigned NOT NULL,
   `coverpic_id` int(10) unsigned DEFAULT '0',
@@ -14,10 +14,10 @@ CREATE TABLE `#__tuiyo_albums` (
   `photocount` int(10) unsigned NOT NULL DEFAULT '0',
   `privacy` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`aid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
 DROP TABLE IF EXISTS `#__tuiyo_applications`;
-CREATE TABLE `#__tuiyo_applications` (
+CREATE TABLE  `#__tuiyo_applications` (
   `extID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(100) NOT NULL,
   `identifier` varchar(50) NOT NULL,
@@ -29,67 +29,40 @@ CREATE TABLE `#__tuiyo_applications` (
   `usersCount` int(11) NOT NULL DEFAULT '0',
   `lastUpdated` date NOT NULL DEFAULT '0000-00-00',
   `folder` varchar(45) NOT NULL DEFAULT 'applications',
-  PRIMARY KEY (`extID`,`identifier`) USING BTREE
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+  PRIMARY KEY (`extID`,`identifier`)
+) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
 
-DROP TABLE IF EXISTS `#__tuiyo_chat_rooms`;
-CREATE TABLE `#__tuiyo_chat_rooms` (
-  `id` tinyint(4) NOT NULL AUTO_INCREMENT,
-  `name` varchar(20) NOT NULL,
-  `usercount` int(10) NOT NULL,
-  `datafile` varchar(30) NOT NULL,
-  `status` varchar(45) NOT NULL,
-  PRIMARY KEY (`id`),
-  KEY `UNIQUE` (`name`,`datafile`),
-  KEY `UNIQUE2` (`name`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
-DROP TABLE IF EXISTS `#__tuiyo_chat_users_rooms`;
-CREATE TABLE `#__tuiyo_chat_users_rooms` (
-  `id` int(100) NOT NULL AUTO_INCREMENT,
-  `username` varchar(100) CHARACTER SET latin1 NOT NULL,
-  `room` int(10) NOT NULL,
-  `lastupdated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `userid` int(10) NOT NULL,
-  PRIMARY KEY (`id`),
-  KEY `UNIQUE` (`userid`,`room`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
-DROP TABLE IF EXISTS `#__tuiyo_events`;
-CREATE TABLE `#__tuiyo_events` (
-  `eventid` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `title` varchar(150) NOT NULL,
-  `location` varchar(100) DEFAULT NULL,
-  `street` varchar(100) DEFAULT NULL,
-  `city` varchar(100) DEFAULT NULL,
-  `coordinates` varchar(255) DEFAULT NULL,
-  `startdate` date NOT NULL,
-  `enddate` date NOT NULL,
-  `starttime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `endtime` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `privacy` enum('0','1','2') NOT NULL,
-  `poster` text,
-  `type` varchar(45) DEFAULT 'general',
+DROP TABLE IF EXISTS `#__tuiyo_categories`;
+CREATE TABLE  `#__tuiyo_categories` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `parent` int(10) unsigned DEFAULT NULL,
+  `title` varchar(100) NOT NULL,
+  `thumb` varchar(200) DEFAULT NULL,
   `description` text,
-  `params` text,
-  `createdby` int(10) unsigned NOT NULL,
-  PRIMARY KEY (`eventid`) USING BTREE
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+  `status` tinyint(1) NOT NULL DEFAULT '1',
+  `creator` int(10) unsigned NOT NULL,
+  `dateadded` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `lft` int(10) NOT NULL,
+  `rgt` int(10) NOT NULL,
+  `params` text NOT NULL,
+  `attributes` text NOT NULL,
+  `slug` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
 
-DROP TABLE IF EXISTS `#__tuiyo_events_rsvp`;
-CREATE TABLE `#__tuiyo_events_rsvp` (
-  `rsvpid` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `eventid` int(10) unsigned NOT NULL,
-  `userid` int(10) unsigned NOT NULL,
-  `role` varchar(45) DEFAULT 'guest',
-  `notes` text,
-  `approved` enum('0','1') NOT NULL DEFAULT '0',
-  PRIMARY KEY (`rsvpid`),
-  UNIQUE KEY `UNIQUE` (`eventid`,`userid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+DROP TABLE IF EXISTS `#__tuiyo_categories_maps`;
+CREATE TABLE  `#__tuiyo_categories_maps` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `resourceid` int(11) NOT NULL,
+  `ownerid` int(11) NOT NULL,
+  `categoryid` int(11) NOT NULL,
+  `maptype` varchar(100) NOT NULL,
+  `params` text,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 DROP TABLE IF EXISTS `#__tuiyo_fields`;
-CREATE TABLE `#__tuiyo_fields` (
+CREATE TABLE  `#__tuiyo_fields` (
   `ID` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(100) NOT NULL,
   `title` varchar(100) NOT NULL,
@@ -111,17 +84,8 @@ CREATE TABLE `#__tuiyo_fields` (
   PRIMARY KEY (`ID`,`name`)
 ) ENGINE=MyISAM AUTO_INCREMENT=30 DEFAULT CHARSET=utf8;
 
-INSERT INTO `#__tuiyo_fields` (`ID`,`name`,`title`,`descr`,`type`,`maxlength`,`size`,`required`,`ordering`,`defaultvalue`,`visible`,`validation`,`attributes`,`indexed`,`linkfieldvalue`,`tablename`,`options`,`editable`) VALUES 
- (28,'InterestinWomen','Interest in Women',NULL,'checkbox',NULL,NULL,'0',0,NULL,'1',NULL,NULL,'1',NULL,NULL,NULL,'0'),
- (25,'ReligiousView','ReligiousView',NULL,'text',NULL,NULL,'0',0,NULL,'1',NULL,NULL,'1',NULL,NULL,NULL,'0'),
- (21,'FavoriteQuotes','Favorite Quotes',NULL,'textarea',NULL,NULL,'1',0,NULL,'0',NULL,NULL,'1',NULL,NULL,NULL,'0'),
- (20,'FavoriteMusic','Favorite Music',NULL,'textarea',NULL,NULL,'1',0,NULL,'1',NULL,NULL,'1',NULL,NULL,NULL,'0'),
- (22,'Interests','Interests',NULL,'text',NULL,NULL,'0',0,NULL,'1',NULL,NULL,'1',NULL,NULL,NULL,'0'),
- (23,'AboutMe','About Me',NULL,'textarea',NULL,NULL,'0',0,NULL,'1',NULL,NULL,'1',NULL,NULL,NULL,'0'),
- (29,'PoliticalView','PoliticalView',NULL,'text',NULL,NULL,'0',0,NULL,'0',NULL,NULL,'0',NULL,NULL,NULL,'0');
-
 DROP TABLE IF EXISTS `#__tuiyo_friends`;
-CREATE TABLE `#__tuiyo_friends` (
+CREATE TABLE  `#__tuiyo_friends` (
   `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `type` varchar(50) DEFAULT NULL,
   `listID` int(10) unsigned NOT NULL DEFAULT '0',
@@ -132,11 +96,11 @@ CREATE TABLE `#__tuiyo_friends` (
   `user1` int(10) unsigned NOT NULL,
   `user2` int(10) unsigned NOT NULL,
   PRIMARY KEY (`ID`),
-  UNIQUE KEY `UNIQUE` (`user1`,`user2`) USING BTREE
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+  UNIQUE KEY `UNIQUE` (`user1`,`user2`)
+) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
 
 DROP TABLE IF EXISTS `#__tuiyo_groups`;
-CREATE TABLE `#__tuiyo_groups` (
+CREATE TABLE  `#__tuiyo_groups` (
   `groupID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `creatorID` int(10) unsigned NOT NULL,
   `gType` varchar(45) NOT NULL,
@@ -154,10 +118,10 @@ CREATE TABLE `#__tuiyo_groups` (
   `params` text,
   `catID` int(10) unsigned NOT NULL,
   PRIMARY KEY (`groupID`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
 
 DROP TABLE IF EXISTS `#__tuiyo_groups_activity`;
-CREATE TABLE `#__tuiyo_groups_activity` (
+CREATE TABLE  `#__tuiyo_groups_activity` (
   `activityID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `memberID` int(10) unsigned NOT NULL,
   `userID` int(10) unsigned NOT NULL,
@@ -170,64 +134,22 @@ CREATE TABLE `#__tuiyo_groups_activity` (
   PRIMARY KEY (`activityID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
-DROP TABLE IF EXISTS `#__tuiyo_groups_categories`;
-CREATE TABLE `#__tuiyo_groups_categories` (
-  `catID` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `parentID` int(10) unsigned DEFAULT NULL,
-  `cName` varchar(100) NOT NULL,
-  `thumb48` varchar(200) DEFAULT NULL,
-  `description` text,
-  `isPublished` tinyint(1) NOT NULL DEFAULT '1',
-  `creatorID` int(10) unsigned NOT NULL,
-  `dateAdded` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `groupCount` int(10) unsigned NOT NULL DEFAULT '0',
-  PRIMARY KEY (`catID`)
-) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
-
-INSERT INTO `#__tuiyo_groups_categories` (`catID`,`parentID`,`cName`,`thumb48`,`description`,`isPublished`,`creatorID`,`dateAdded`,`groupCount`) VALUES 
- (1,NULL,'Business & Finance',NULL,NULL,1,62,'2009-08-11 14:26:04',3),
- (2,NULL,'Computers & Internet',NULL,NULL,1,62,'2009-08-11 14:32:53',0),
- (3,NULL,'Culture & Community',NULL,NULL,1,62,'2009-08-11 14:32:53',0),
- (4,NULL,'Entertainment & Arts',NULL,NULL,1,62,'2009-08-11 14:32:53',1),
- (5,NULL,'Family & Home',NULL,NULL,1,62,'2009-08-11 14:32:53',1),
- (6,NULL,'Games & Recreation',NULL,NULL,1,62,'2009-08-11 14:32:53',0),
- (7,NULL,'Government & Politics',NULL,NULL,1,62,'2009-08-11 14:32:53',1),
- (8,NULL,'Health & Wellness',NULL,NULL,1,62,'2009-08-11 14:32:53',0),
- (9,NULL,'Hobbies & Craft',NULL,NULL,1,62,'2009-08-11 14:32:53',0),
- (10,NULL,'Music & Videos',NULL,NULL,1,62,'2009-08-11 14:32:53',0),
- (11,NULL,'Romance & Relationships',NULL,NULL,1,62,'2009-08-11 14:32:53',0),
- (12,NULL,'Science & Technology',NULL,NULL,1,62,'2009-08-11 14:32:53',0),
- (13,NULL,'Sports & Activites',NULL,NULL,1,62,'2009-08-11 14:32:53',0),
- (14,2,'Programming Languages',NULL,NULL,1,62,'2009-08-11 16:54:58',2),
- (15,2,'Hardware',NULL,NULL,1,62,'2009-08-11 16:54:58',0);
-
 DROP TABLE IF EXISTS `#__tuiyo_groups_members`;
-CREATE TABLE `#__tuiyo_groups_members` (
+CREATE TABLE  `#__tuiyo_groups_members` (
   `memberID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `userID` varchar(45) NOT NULL,
-  `joinDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `joinDate` varchar(45) NOT NULL,
   `lastSeen` datetime NOT NULL,
   `rank` varchar(45) NOT NULL,
-  `params` text NOT NULL,
-  `privacy` text NOT NULL,
+  `params` varchar(45) NOT NULL,
+  `privacy` varchar(45) NOT NULL,
   `groupID` varchar(45) NOT NULL,
   PRIMARY KEY (`memberID`),
   UNIQUE KEY `UNIQUE-PAIR` (`groupID`,`userID`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
-DROP TABLE IF EXISTS `#__tuiyo_groups_resources`;
-CREATE TABLE `#__tuiyo_groups_resources` (
-  `resourceID` int(10) unsigned NOT NULL,
-  `rType` varchar(45) DEFAULT NULL,
-  `rID` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `groupID` int(10) unsigned NOT NULL,
-  `userID` int(10) unsigned NOT NULL,
-  `description` text,
-  PRIMARY KEY (`rID`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Extension to the Tuiyo Resource Table';
+) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
 
 DROP TABLE IF EXISTS `#__tuiyo_invites`;
-CREATE TABLE `#__tuiyo_invites` (
+CREATE TABLE  `#__tuiyo_invites` (
   `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `userid` int(10) unsigned NOT NULL,
   `datetime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -235,13 +157,13 @@ CREATE TABLE `#__tuiyo_invites` (
   `name` text NOT NULL,
   `state` enum('0','1') NOT NULL COMMENT '0 pendng, 1=activated',
   `acceptdate` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `code` tinytext NOT NULL,
-  PRIMARY KEY (`ID`,`email`) USING BTREE,
+  `code` text NOT NULL,
+  PRIMARY KEY (`ID`),
   UNIQUE KEY `UNIQUE` (`email`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DROP TABLE IF EXISTS `#__tuiyo_log`;
-CREATE TABLE `#__tuiyo_log` (
+CREATE TABLE  `#__tuiyo_log` (
   `logID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `dateTime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `ip` varchar(45) DEFAULT NULL,
@@ -256,7 +178,7 @@ CREATE TABLE `#__tuiyo_log` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DROP TABLE IF EXISTS `#__tuiyo_notifications`;
-CREATE TABLE `#__tuiyo_notifications` (
+CREATE TABLE  `#__tuiyo_notifications` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `title` text NOT NULL,
   `template` text,
@@ -268,10 +190,10 @@ CREATE TABLE `#__tuiyo_notifications` (
   `linktitle` text NOT NULL,
   `noticetime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
 
 DROP TABLE IF EXISTS `#__tuiyo_params`;
-CREATE TABLE `#__tuiyo_params` (
+CREATE TABLE  `#__tuiyo_params` (
   `paramsID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `userID` int(10) unsigned NOT NULL,
   `application` varchar(20) NOT NULL DEFAULT 'system',
@@ -279,10 +201,10 @@ CREATE TABLE `#__tuiyo_params` (
   `lastModified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`paramsID`),
   UNIQUE KEY `UNIQUE` (`userID`,`application`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
 
 DROP TABLE IF EXISTS `#__tuiyo_photos`;
-CREATE TABLE `#__tuiyo_photos` (
+CREATE TABLE  `#__tuiyo_photos` (
   `pid` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `aid` int(10) unsigned NOT NULL,
   `userid` int(10) unsigned NOT NULL,
@@ -293,10 +215,10 @@ CREATE TABLE `#__tuiyo_photos` (
   `last_modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   `tags` text,
   PRIMARY KEY (`pid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
 
 DROP TABLE IF EXISTS `#__tuiyo_plugins`;
-CREATE TABLE `#__tuiyo_plugins` (
+CREATE TABLE  `#__tuiyo_plugins` (
   `pluginID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(45) NOT NULL,
   `key` varchar(45) DEFAULT NULL,
@@ -306,14 +228,35 @@ CREATE TABLE `#__tuiyo_plugins` (
   `isCore` tinyint(1) NOT NULL DEFAULT '0',
   `params` text,
   PRIMARY KEY (`pluginID`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
-INSERT INTO `#__tuiyo_plugins` (`pluginID`,`name`,`key`,`type`,`access`,`isPublished`,`isCore`,`params`) VALUES 
- (1,'Tuiyo Welcome Message','welcome','profile','0',1,0,NULL),
- (2,'Tuiyo Check Updates','checkupdate','admin','0',1,1,NULL);
+DROP TABLE IF EXISTS `#__tuiyo_posts`;
+CREATE TABLE  `#__tuiyo_posts` (
+  `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `author` bigint(20) unsigned NOT NULL DEFAULT '0',
+  `createdate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `postcontent` longtext NOT NULL,
+  `posttitle` text NOT NULL,
+  `postexcerpt` text NOT NULL,
+  `poststatus` varchar(20) NOT NULL DEFAULT 'publish',
+  `commentstatus` varchar(20) NOT NULL DEFAULT 'open',
+  `pingstatus` varchar(20) NOT NULL DEFAULT 'open',
+  `postpassword` varchar(20) NOT NULL DEFAULT '',
+  `postname` varchar(200) NOT NULL DEFAULT '',
+  `toping` text NOT NULL,
+  `pinged` text NOT NULL,
+  `postmodified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `postmodifiedgmt` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `postcontentfiltered` text NOT NULL,
+  `postparent` bigint(20) unsigned NOT NULL DEFAULT '0',
+  `posttype` varchar(20) NOT NULL DEFAULT 'post',
+  `postmimetype` varchar(100) NOT NULL DEFAULT '',
+  `commentcount` bigint(20) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`ID`)
+) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
 
 DROP TABLE IF EXISTS `#__tuiyo_reports`;
-CREATE TABLE `#__tuiyo_reports` (
+CREATE TABLE  `#__tuiyo_reports` (
   `reportID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `reason` varchar(45) NOT NULL,
   `reporterID` int(10) unsigned NOT NULL,
@@ -328,7 +271,7 @@ CREATE TABLE `#__tuiyo_reports` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DROP TABLE IF EXISTS `#__tuiyo_resources`;
-CREATE TABLE `#__tuiyo_resources` (
+CREATE TABLE  `#__tuiyo_resources` (
   `resourceID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `userID` int(10) unsigned NOT NULL,
   `dateAdded` date DEFAULT NULL,
@@ -350,10 +293,10 @@ CREATE TABLE `#__tuiyo_resources` (
   `isPublic` tinyint(1) NOT NULL,
   `fileTitle` varchar(160) NOT NULL,
   PRIMARY KEY (`resourceID`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
 
 DROP TABLE IF EXISTS `#__tuiyo_timeline`;
-CREATE TABLE `#__tuiyo_timeline` (
+CREATE TABLE  `#__tuiyo_timeline` (
   `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `datetime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `userID` int(10) unsigned NOT NULL,
@@ -369,11 +312,14 @@ CREATE TABLE `#__tuiyo_timeline` (
   `likes` text,
   `dislikes` text,
   `sharewith` text NOT NULL,
+  `geolocation` varchar(100) DEFAULT NULL,
+  `mapresourceid` int(11) DEFAULT NULL,
+  `params` text,
   PRIMARY KEY (`ID`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
 
 DROP TABLE IF EXISTS `#__tuiyo_timelinetmpl`;
-CREATE TABLE `#__tuiyo_timelinetmpl` (
+CREATE TABLE  `#__tuiyo_timelinetmpl` (
   `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `appName` varchar(45) NOT NULL,
   `identifier` varchar(45) NOT NULL,
@@ -386,10 +332,10 @@ CREATE TABLE `#__tuiyo_timelinetmpl` (
   `thisUserID` int(10) unsigned DEFAULT NULL,
   `thatUserID` int(10) unsigned DEFAULT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
 
 DROP TABLE IF EXISTS `#__tuiyo_userapps`;
-CREATE TABLE `#__tuiyo_userapps` (
+CREATE TABLE  `#__tuiyo_userapps` (
   `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `appID` int(10) unsigned NOT NULL,
   `userID` int(10) unsigned NOT NULL,
@@ -403,10 +349,23 @@ CREATE TABLE `#__tuiyo_userapps` (
   `hasProfile` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`ID`),
   UNIQUE KEY `ONEAPPPERUSER` (`appID`,`userID`,`appName`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `#__tuiyo_userplugins`;
+CREATE TABLE  `#__tuiyo_userplugins` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) NOT NULL,
+  `type` varchar(45) DEFAULT NULL,
+  `userid` varchar(45) NOT NULL DEFAULT '0',
+  `lastupdated` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `privacy` tinyint(10) NOT NULL DEFAULT '0',
+  `params` text,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `UNIQUE_SERVICE` (`name`,`userid`)
+) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
 
 DROP TABLE IF EXISTS `#__tuiyo_users`;
-CREATE TABLE `#__tuiyo_users` (
+CREATE TABLE  `#__tuiyo_users` (
   `profileID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `userID` int(10) unsigned NOT NULL,
   `profileName` text,
@@ -425,10 +384,10 @@ CREATE TABLE `#__tuiyo_users` (
   PRIMARY KEY (`profileID`,`userID`),
   UNIQUE KEY `userID` (`userID`),
   UNIQUE KEY `profileID` (`profileID`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='User profile table';
+) ENGINE=MyISAM AUTO_INCREMENT=62 DEFAULT CHARSET=utf8 COMMENT='User profile table';
 
 DROP TABLE IF EXISTS `#__tuiyo_widgets`;
-CREATE TABLE `#__tuiyo_widgets` (
+CREATE TABLE  `#__tuiyo_widgets` (
   `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `parent` int(10) unsigned NOT NULL,
   `userID` int(10) unsigned NOT NULL,
@@ -440,4 +399,4 @@ CREATE TABLE `#__tuiyo_widgets` (
   `params` text COMMENT 'json configuration',
   `ordering` int(10) unsigned NOT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
