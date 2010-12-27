@@ -2,10 +2,10 @@
 
 A modern and open social networking solution for Joomla 1.5 and Joomla 1.6.
 
-- General info: [http://ignite.tuiyo.co.uk/](http://ignite.tuiyo.co.uk/)
-- Issue tracking and bug reporting: [https://github.com/Tuiyo/ignite/issues](https://github.com/Tuiyo/ignite/issues)
-- Mainline source code: [https://github.com/Tuiyo/ignite](https://github.com/Tuiyo/ignite)
-- Twitter: [@com_tuiyo](http://twitter.com/com_tuiyo)
+- General info: [http://ignite.tuiyo.co.uk/]
+- Issue tracking and bug reporting: [https://github.com/Tuiyo/ignite/issues]
+- Mainline source code: [https://github.com/Tuiyo/ignite]
+- Twitter: [@com_tuiyo]
 
 ## Development
 
