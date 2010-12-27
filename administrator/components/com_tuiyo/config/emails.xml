@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<systemparams version="1.5" type="emails">
+	<params>
+		<param name="welcomeEmailTitle" type="text" default="" class="TuiyoFormText" label="Message Title" description="" />
+		<param name="welcomeEmailBody" type="textarea" default="" class="TuiyoFormTextArea" label="Message Body" description="Available Variables:[username],[name],[email],[message],[password],[link]" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="inviteEmailTitle" type="text" default="" class="TuiyoFormText" label="Message Title" description="" />
+		<param name="inviteEmailBody" type="textarea" default="" class="TuiyoFormTextArea" label="Message Body" description="Available Variables:[username],[name],[email],[message],[password],[link]" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="wallCommentEmailTitle" type="text" default="" class="TuiyoFormText" label="Message Title" description="" />
+		<param name="wallCommentEmailBody" type="textarea" default="" class="TuiyoFormTextArea" label="Message Body" description="Available Variables:[username],[name],[email],[message],[password],[link]" />	
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="connectionRequestEmailTitle" type="text" default="" class="TuiyoFormText" label="Message Title" description="" />
+		<param name="connectionRequestEmailBody" type="textarea" default="" class="TuiyoFormTextArea" label="Message Body" description="Available Variables:[username],[name],[email],[message],[password],[link]" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="newUserGroupEmailTitle" type="text" default="" class="TuiyoFormText" label="Message Title" description="" />
+		<param name="newUserGroupEmailBody" type="textarea" default="" class="TuiyoFormTextArea" label="Message Body" description="Available Variables:[username],[name],[email],[message],[password],[link]" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="newGroupMemberEmailTitle" type="text" default="" class="TuiyoFormText" label="Message Title" description="" />
+		<param name="newGroupMemberEmailBody" type="textarea" default="" class="TuiyoFormTextArea" label="Message Body" description="Available Variables:[username],[name],[email],[message],[password],[link]" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="newUserReportEmailTitle" type="text" default="" class="TuiyoFormText" label="Message Title" description="" />
+		<param name="newUserReportEmailBody" type="textarea" default="" class="TuiyoFormTextArea" label="Message Body" description="Available Variables:[username],[name],[email],[message],[password],[link]" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="newNotificationEmailTitle" type="text" default="" class="TuiyoFormText" label="Message Title" description="" />
+		<param name="newNotificationEmailBody" type="textarea" default="" class="TuiyoFormTextArea" label="Message Body" description="Available Variables:[username],[name],[email],[message],[password],[link]" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="newActionEmailTitle" type="text" default="" class="TuiyoFormText" label="Message Title" description="" />
+		<param name="newActionEmailBody" type="textarea" default="" class="TuiyoFormTextArea" label="Message Body" description="Available Variables:[username],[name],[email],[message],[password],[link]" />							
+    </params>
+</systemparams>

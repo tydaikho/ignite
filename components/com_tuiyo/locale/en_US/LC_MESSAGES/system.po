@@ -1,0 +1,2452 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tuiyo for Joomla\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-02 15:34-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Livingstone Fultang <drstonyhills@tuiyo.co.uk>\n"
+"Language-Team: Tuiyo Team <hello@tuiyo.co.uk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\joomla\\components\\com_tuiyo\\views\n"
+"X-Poedit-SearchPath-1: C:\\wamp\\www\\joomla\\components\\com_tuiyo\\controllers\n"
+"X-Poedit-SearchPath-2: C:\\wamp\\www\\joomla\\components\\com_tuiyo\\models\n"
+"X-Poedit-SearchPath-3: C:\\wamp\\www\\joomla\\components\\com_tuiyo\\plugins\n"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/view.html.php:68
+#, fuzzy
+msgid "Please log-in to interact with this group"
+msgstr "Sign Up now or log-in to interact with %s"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/view.html.php:60
+msgid "&amp;view=welcome"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/view.html.php:78
+msgid "Registration is by invite ONLY"
+msgstr "Registration is by invite ONLY"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/view.html.php:81
+msgid "New registrations are currently disabled"
+msgstr "New registrations to our community, are currently disabled. We apologize for any inconveniceses caused"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/view.html.php:89
+msgid "Welcome | Authentication"
+msgstr "Welcome | Authentication"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/apps.php:79
+msgid "The requested application does not exists"
+msgstr "The requested application does not exists"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/apps.php:84
+msgid "To user this application you will need to add it to your account. Visit Homepage > Applications ControlPanel > Browse Apps to add this application"
+msgstr "To use this application you will need to add it to your account. Go to the application control panel from your dashboard to add this application"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/apps.php:349
+#, php-format
+msgid "%1s added the application %2s to %3s profile"
+msgstr "%1s added the application %2s to %3s profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/apps.php:356
+#, php-format
+msgid "The %s application has been added to your account. You could configure the application from the application control panel on your dashboard. Enjoy!"
+msgstr "The %s application has been added to your account. You could configure the application from the control panel on your dashboard. Enjoy!"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/apps.php:358
+msgid "&amp;view=apps&amp;app="
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/apps.php:402
+#, php-format
+msgid "The %s application has been un-installed from your account, and all data removed. "
+msgstr "The %s application has been un-installed from your account, and all data removed. "
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/apps.php:403
+msgid "&view=profile&do=homepage"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:52
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:97
+msgid "&amp;redirect=core&amp;do=start"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:91
+msgid "&amp;redirect=welcome&amp;do=login"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:92
+msgid "You must be logged in to view this section of our site"
+msgstr "You must be logged in to view this section of our site"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:113
+msgid "&view=welcome"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:176
+msgid "Help and Support"
+msgstr "Help and Support"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:178
+msgid "Help and support"
+msgstr "Help and support"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:207
+msgid "Authentification required, but you provided incomplete details"
+msgstr "The details you provided are incomplete or incorrect"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:222
+msgid "Logged In successfully!"
+msgstr "You have been successfully logged into your profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:226
+msgid "Authentification required, but the Username and/or Password are/is incorrect"
+msgstr "The username and/or password your provided are incorrect"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:319
+msgid "&amp;view=welcome&do=auth"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:322
+msgid "Registration is currently disabled via this route"
+msgstr "Registration is currently disabled via this route"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:332
+msgid "Please provide a valid Invitation code"
+msgstr "The invitation code you provided is incorrect."
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:337
+msgid "Registration is currently disabled"
+msgstr "New registrations to our community, are currently disabled. We apologize for any inconveniceses caused"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:373
+msgid "You MUST pledge to abide by our terms of use"
+msgstr "Please accept our terms and conditions"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:386
+msgid "Passwords do not match"
+msgstr "The provided password verification, does not match the original password"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:407
+msgid "Could not implement invite"
+msgstr "We are experiencing some difficulties in completing your invite. Please contact an administrator"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:414
+msgid "Your account has been created, An activation email has been sent to the e-mail provided"
+msgstr "Your account has been created, An activation email has been sent to the e-mail provided"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:416
+msgid "Your account has been created, no activation is required, You may now log-in"
+msgstr "Your account has been created, no activation is required, You may now log-in"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/core.php:419
+msgid "&amp;view=welcome&amp;do=auth"
+msgstr "&amp;view=welcome&amp;do=auth"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/friends.php:65
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/friends.php:71
+msgid "Friends manager"
+msgstr "Friends manager"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/friends.php:98
+msgid "&view=profile&do=view&pid="
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/friends.php:99
+msgid "We could not add this user as your friend, probably because another relationship already exists or is pending"
+msgstr "We could not add this user as your friend, probably because another relationship already exists or is pending"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/friends.php:104
+msgid "Confirmation is now pending"
+msgstr "Confirmation is now pending"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/friends.php:105
+msgid "Successfully added as friend. "
+msgstr "Successfully added as friend. "
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/friends.php:123
+msgid "Could not delete the Invitation"
+msgstr "We are experiencing some difficulties in completing your invite. Please contact an administrator"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/friends.php:126
+msgid "The invite code to this user has now been terminated and is henceforth unsuable"
+msgstr "The invite code to this user has now been terminated and is henceforth unsuable"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/friends.php:127
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/friends.php:189
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/friends.php:208
+msgid "&amp;view=friends&amp;do=view"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/friends.php:177
+#, php-format
+msgid "Invites have been sent to %s; Once the account(s) are active they/it will be added to your friend list. You will be notified"
+msgstr "Invites have been sent to %s; Once the account(s) are active they/it will be added to your friend list. You will be notified"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/friends.php:179
+msgid "We could not send out any invites to any of the friends required"
+msgstr "We could not send out any invites to any of the friends required"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/friends.php:184
+#, php-format
+msgid "Invites could not be sent to %s; Probably because they/it already have/has an existing account(s)"
+msgstr "Invites could not be sent to %s; Probably because they/it already have/has an existing account(s)"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/groups.php:135
+#, fuzzy, php-format
+msgid "The group %s has now been created"
+msgstr "The message has been deleted"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/groups.php:136
+#, fuzzy
+msgid "&amp;view=groups&amp;do=view&amp;gid="
+msgstr "&amp;view=welcome&amp;do=auth"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/messages.php:67
+msgid "Private messages"
+msgstr "Private messages"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/messages.php:70
+msgid "Message list"
+msgstr "Message List"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/messages.php:124
+msgid "Your message has been sent"
+msgstr "Your message has been sent"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/messages.php:126
+msgid "We could not send the message"
+msgstr "We could not send the message"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/messages.php:152
+msgid "The message has been deleted"
+msgstr "The message has been deleted"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/messages.php:153
+msgid "index.php?option=com_tuiyo&view=messages"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/messages.php:158
+msgid "Could not delete the message"
+msgstr "We are experiencing some difficulties with deleting this message"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/messages.php:186
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/profile.php:185
+msgid "Invalid Request format"
+msgstr "Invalid Request format"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/messages.php:198
+msgid "Could not change the message status"
+msgstr "Could not change the message status"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/messages.php:228
+msgid "Online Calendar"
+msgstr "Online Calendar"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/messages.php:230
+msgid "Calendar"
+msgstr "Calendar"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/messages.php:257
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/messages.php:259
+#, fuzzy
+msgid "Agenda and Events"
+msgstr "Agenda and events"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/profile.php:145
+#, php-format
+msgid "%s | Profile"
+msgstr "%s | Profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/profile.php:230
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/profile.php:268
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:255
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:319
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:396
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:456
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:553
+msgid "Invalid Request format. JSON only"
+msgstr "Invalid Request format. JSON only"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/profile.php:298
+#, php-format
+msgid "%s | Homepage"
+msgstr "%s | Homepage"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/resources.php:178
+msgid "Members Lists"
+msgstr "View members list"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/resources.php:179
+msgid "Members"
+msgstr "Members"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/resources.php:239
+msgid "file uploaded"
+msgstr "file uploaded"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/resources.php:278
+msgid "files title changed"
+msgstr "files title changed"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/resources.php:335
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/resources.php:422
+msgid "files deleted"
+msgstr "files deleted"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:66
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:232
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:297
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:352
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:492
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:531
+msgid "Invalid request. Method accepts only post data"
+msgstr "Invalid request. Method accepts only post data"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:198
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:207
+msgid "Authentication required for this method"
+msgstr "The details you provided are incomplete or incorrect. Authentication required for this method"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:242
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:306
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:360
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:500
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:540
+msgid "Invalid user ID"
+msgstr "Invalid user ID"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:361
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:501
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/widgets.php:184
+msgid "Invalid token"
+msgstr "Invalid token"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:377
+#: C:\wamp\www\joomla\components\com_tuiyo\controllers/timeline.php:437
+msgid "Invalid request. Method accepts only get request"
+msgstr "Invalid request. Method accepts only get request"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/friends.php:100
+#: C:\wamp\www\joomla\components\com_tuiyo\models/friends.php:127
+msgid "Invalid Profile ID"
+msgstr "Invalid user ID"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/friends.php:109
+#, php-format
+msgid "%s has been removed from your friends list"
+msgstr "%s has been removed from your friends list"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/friends.php:111
+#, php-format
+msgid "There was a problem removing %s from your friends list"
+msgstr "There was a problem removing %s from your friends list"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/friends.php:230
+msgid "Could not find the specified Invite"
+msgstr "Could not find the specified Invite"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/friends.php:235
+msgid "You do not have permission to delete the invite"
+msgstr "You do not have permission to delete the invite"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/messages.php:162
+msgid "Messages to self do not show in inbox but in sent folder"
+msgstr "Messages to self do not show in inbox but in sent folder"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/messages.php:187
+msgid "Message could not be loaded"
+msgstr "Message could not be loaded"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/messages.php:192
+msgid "You do not have permission to change this message status"
+msgstr "You do not have permission to change this message status"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/messages.php:201
+msgid "Could not update the table"
+msgstr "Could not update the table"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/photos.php:127
+msgid "You do not  have permission to edit This album"
+msgstr "You do not  have permission to edit This album"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/photos.php:186
+#, fuzzy
+msgid "You do not have permission to edit This album"
+msgstr "You do not  have permission to edit This album"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/profile.php:142
+msgid "Can not bind user data"
+msgstr "Can not bind user data"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/profile.php:149
+msgid "Cannot save user data"
+msgstr "Cannot save user data"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/profile.php:312
+msgid "now suspend profile"
+msgstr "now suspend profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/resources.php:158
+msgid "You do not have permission to change this resource"
+msgstr "You do not have permission to change this resource"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/resources.php:166
+msgid "An error occured whilst saving the resource"
+msgstr "An error occured whilst saving the resource"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/resources.php:225
+#, php-format
+msgid "Could not remove FILE:%s from DB"
+msgstr "Could not remove FILE:%s from DB"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/resources.php:237
+#, php-format
+msgid "Could not delete %s"
+msgstr "Could not delete %s"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/timeline.php:181
+msgid "Could not load the activity"
+msgstr "Could not load the activity"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/timeline.php:455
+msgid "Could not save the vote, because you already voted"
+msgstr "Could not save the vote, because you already voted"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/timeline.php:463
+msgid "Could not save the vote because you already voted"
+msgstr "Could not save the vote because you already voted"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/timeline.php:467
+msgid "Invalid vote type"
+msgstr "Invalid vote type"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/timeline.php:547
+msgid "Invalid activity ID"
+msgstr "Invalid activity ID"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\models/widgets.php:127
+msgid "Tuiyo could not delete the tab"
+msgstr "Tuiyo could not delete the tab"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:8
+msgid "Friends lists"
+msgstr "Friends lists"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:11
+msgid "Invite friends"
+msgstr "Invite friends"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:14
+msgid "Your Invite history"
+msgstr "Your Invite history"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:16
+msgid "&amp;controller=resources&do=members"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:17
+msgid "Community members lits"
+msgstr "View members list"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:28
+msgid "Friends"
+msgstr "Friends"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:37
+msgid "&amp;view=profile&amp;do=view&user="
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:43
+#, php-format
+msgid "pending confirmation from %s"
+msgstr "pending confirmation from %s"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:46
+#, php-format
+msgid "%s requested to add you as a friend"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:51
+msgid "&amp;view=friends&amp;do=add&amp;pid="
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:54
+msgid "&amp;view=friends&amp;do=remove&amp;pid="
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:64
+msgid "Invite history"
+msgstr "Invite history"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:67
+msgid "Invitation to"
+msgstr "Invitation to"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:68
+msgid "via e-Mail"
+msgstr "via e-Mail"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:69
+msgid "When"
+msgstr "When"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:82
+msgid "&amp;view=friends&amp;do=removeInvite&amp;ic="
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:92
+msgid "Invite Friends"
+msgstr "Invite Friends"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:98
+msgid "Names :"
+msgstr "Names :"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:99
+msgid "Valid emails:"
+msgstr "Valid emails:"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:166
+msgid "Include personal message (optional)"
+msgstr "Include personal message (optional)"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:173
+msgid "Bring them in"
+msgstr "Bring them in"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/friends/tmpl/default.tpl:179
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/grouphomepage.tpl:51
+msgid "form.token"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/default.tpl:12
+msgid "Hello.."
+msgstr "Hello.."
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/default.tpl:13
+msgid "&view=profile&userid="
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/default.tpl:39
+msgid "All groups in category"
+msgstr "All groups in category"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/default.tpl:57
+msgid "Home"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/default.tpl:64
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/default.tpl:106
+#, fuzzy
+msgid "Most recent group"
+msgstr "Create new group"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/default.tpl:80
+msgid "Most Popular groups"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/default.tpl:85
+#, fuzzy, php-format
+msgid "%d member"
+msgid_plural "%d members"
+msgstr[0] "Members"
+msgstr[1] "Members"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/default.tpl:97
+#, fuzzy
+msgid "Popular amongst your friends"
+msgstr "Managing your friends"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/default.tpl:101
+#, fuzzy
+msgid "My Groups"
+msgstr "My groups"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/default.tpl:111
+msgid "Computer & Hardware > Programming"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/grouphomepage.tpl:12
+msgid "Maximum  of 200 characters short group description here"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/grouphomepage.tpl:46
+msgid "Post"
+msgstr "Post"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/grouphomepage.tpl:86
+msgid "&amp;view=groups"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/newgroup.tpl:3
+msgid "index.php?&view=groups"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/newgroup.tpl:7
+#, fuzzy
+msgid "Group Name"
+msgstr "Group Name (required)"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/newgroup.tpl:14
+#, fuzzy
+msgid "Short description"
+msgstr "Short description (required)"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/newgroup.tpl:17
+msgid "Maximum  of 100 characters, required"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/newgroup.tpl:22
+msgid "Long Description"
+msgstr "Long Description"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/newgroup.tpl:25
+msgid "Maximum  of 200 characters, optional"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/newgroup.tpl:30
+#, fuzzy
+msgid "Privacy"
+msgstr "Privacy Policy"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/newgroup.tpl:33
+msgid "Public group - anyone can participate"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/newgroup.tpl:35
+msgid "Private group - participation on invite only"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/newgroup.tpl:40
+msgid "Category"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/groups/tmpl/newgroup.tpl:55
+#, fuzzy
+msgid "Create group"
+msgstr "Create new group"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/addressbook.tpl:22
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/agenda.tpl:22
+msgid "Business cards"
+msgstr "Business cards"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/addressbook.tpl:24
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/agenda.tpl:24
+msgid "Address cards"
+msgstr "Address cards"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/addressbook.tpl:26
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/agenda.tpl:26
+msgid "Detailed address cards"
+msgstr "Detailed address cards"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/addressbook.tpl:28
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/agenda.tpl:28
+msgid "Simple Phone list"
+msgstr "Simple Phone list"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/addressbook.tpl:30
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/agenda.tpl:30
+msgid "Sort by companies"
+msgstr "Sort by companies"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/addressbook.tpl:32
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/agenda.tpl:32
+msgid "Sort by location"
+msgstr "Sort by location"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/addressbook.tpl:44
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/agenda.tpl:44
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/calendar.tpl:10
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:49
+msgid "&view=messages"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/addressbook.tpl:44
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/agenda.tpl:44
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/calendar.tpl:10
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:49
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:37
+msgid "Messages"
+msgstr "Messages"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/addressbook.tpl:46
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/agenda.tpl:46
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/calendar.tpl:12
+msgid "&view=messages&do=addressBook"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/addressbook.tpl:46
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/agenda.tpl:46
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/calendar.tpl:13
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:51
+msgid "Address book"
+msgstr "Address book"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/addressbook.tpl:48
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/agenda.tpl:48
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/calendar.tpl:15
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:53
+msgid "&view=messages&do=calendar"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/addressbook.tpl:50
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/agenda.tpl:50
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/calendar.tpl:17
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:55
+msgid "&view=messages&do=agenda"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/addressbook.tpl:50
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/agenda.tpl:50
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/calendar.tpl:17
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:55
+msgid "Agenda and events"
+msgstr "Agenda and events"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:22
+msgid "Compose new Message"
+msgstr "Compose new Message"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:24
+msgid "Recieved Messages"
+msgstr "Recieved Messages"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:28
+msgid "Sent Messages"
+msgstr "Sent Messages"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:32
+msgid "Draft messages"
+msgstr "Draft messages"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:36
+msgid "Trashed"
+msgstr "Trashed"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:51
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:44
+msgid "&amp;view=messages&amp;do=addressBook"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:63
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:167
+msgid "index.php?option=com_tuiyo"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:68
+msgid "From:"
+msgstr "From:"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:78
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:170
+msgid "To:"
+msgstr "To:"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:82
+msgid "Comma (,) separeted"
+msgstr "Comma (,) separeted"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:89
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:177
+msgid "Subject"
+msgstr "Subject"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:99
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:193
+msgid "Send Message"
+msgstr "Send Message"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:100
+msgid "Save to Drafts"
+msgstr "Save to Drafts"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:120
+msgid "Messages you recieve will be displayed here"
+msgstr "Messages you recieve will be displayed here"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:140
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:152
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:205
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:259
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:312
+msgid "&view=messages&do=deleteMessage&mid="
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:152
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:205
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:259
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:312
+msgid "delete"
+msgstr "delete"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:155
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:208
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:262
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:315
+msgid "reply"
+msgstr "reply"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:175
+msgid "Messages you send to other users, or to yourself, will be displayed here"
+msgstr "Messages you send to other users, or to yourself, will be displayed here"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:194
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:248
+msgid "index.php?option=com_tuiyo&view=messages&do=deleteMessage&mid="
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:228
+msgid "Your saved drafts, or unsent messages will be saved here"
+msgstr "Your saved drafts, or unsent messages will be saved here"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/messages/tmpl/default.tpl:282
+msgid "Messages you delete, or intend to delete will be displayed here"
+msgstr "Messages you delete, or intend to delete will be displayed here"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:22
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/homepage.tpl:24
+msgid "..search"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:32
+msgid "Upload new photos"
+msgstr "Upload new photos"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:35
+msgid "Recently uploaded"
+msgstr "Recently uploaded"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:38
+msgid "Create new Album"
+msgstr "Create new Album"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:41
+msgid "Organize your photo albums"
+msgstr "Organize your photo albums"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:44
+msgid "Gallery slideshow"
+msgstr "Gallery slideshow"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:63
+#, fuzzy
+msgid "Recently uploaded photos"
+msgstr "Recently uploaded"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:64
+msgid "&amp;view=photos&cl=recent#slideshow"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:65
+#, fuzzy
+msgid "Slideshow"
+msgstr "Gallery slideshow"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:72
+msgid "You have not yet uploaded any pictures. Add some unique and appealing photos of yourself now, to make the most of our community"
+msgstr "You have not yet uploaded any pictures. Add some unique and appealing photos of yourself now, to make the most of our community"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:94
+msgid "Photo galleries"
+msgstr "Photo galleries"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:95
+msgid "&amp;view=photos&cl=edit#organize"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:96
+msgid "Edit"
+msgstr "Edit"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:108
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:120
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:132
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:144
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:156
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:168
+msgid "&amp;view=photos&cl=ab#slideshow"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:191
+msgid "Album name"
+msgstr "Album name"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:198
+msgid "Location"
+msgstr "Location"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:205
+msgid "Description"
+msgstr "Description"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:212
+msgid "Who can view this album?"
+msgstr "Who can view this album?"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:215
+msgid "Only Me"
+msgstr "Only Me"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:216
+msgid "Only My Friends and Me"
+msgstr "Only My Friends and Me"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:217
+msgid "Any registered member"
+msgstr "Any registered member"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:218
+msgid "Make publicly available"
+msgstr "Make publicly available"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:224
+msgid "Publish this Album"
+msgstr "Publish this Album"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:226
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:95
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:103
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:111
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:119
+msgid "Yes"
+msgstr "Yes"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:227
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:96
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:104
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:112
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:120
+msgid "No"
+msgstr "No"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/default.tpl:234
+msgid "Create Album"
+msgstr "Create Album"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/organizepanel.tpl:7
+msgid "Select an Album..."
+msgstr "Select an Album..."
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/organizepanel.tpl:15
+msgid "Modify"
+msgstr "Modify"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/organizepanel.tpl:18
+msgid "Delete"
+msgstr "Delete"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/organizepanel.tpl:21
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/organizepanel.tpl:28
+#, fuzzy
+msgid "Drag Items here to add to album..."
+msgstr "Drag Items here to batch edit..."
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/slideshowpanel.tpl:4
+msgid "Next"
+msgstr "Next"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/slideshowpanel.tpl:6
+msgid "View thumbs"
+msgstr "View thumbs"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/photos/tmpl/slideshowpanel.tpl:8
+msgid "Previous"
+msgstr "Previous"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/activity.tpl:4
+#, php-format
+msgid "Hi %s, so what are you up to?"
+msgstr "Hi %s, so what are you up to?"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:6
+msgid "Add Applications"
+msgstr "Add Applications"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:7
+msgid "My Applications"
+msgstr "My Applications"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:8
+msgid "Application settings"
+msgstr "Application settings"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:31
+#, php-format
+msgid "%1s (in use by %2s user/s )"
+msgstr "%1s (in use by %2s user/s )"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:37
+msgid "Install"
+msgstr "Install"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:41
+msgid "Un-install"
+msgstr "Un-install"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:54
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:109
+msgid "Allow access to Timeline?"
+msgstr "Allow access to Timeline?"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:55
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:117
+msgid "Enable notifications?"
+msgstr "Enable notifications?"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:56
+msgid "Add application to extended profile"
+msgstr "Add application to extended profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:93
+msgid "Add to extended profile"
+msgstr "Add to extended profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/controlpanel.tpl:101
+msgid "Show link to external profile"
+msgstr "Show link to external profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:10
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:18
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/homepage.tpl:50
+msgid "View your profile"
+msgstr "View your profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:13
+msgid "Lobby"
+msgstr "Lobby"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:19
+msgid "&amp;view=profile&amp;do=view"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:21
+msgid "Profile"
+msgstr "Profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:26
+msgid "Advanced search"
+msgstr "Advanced search"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:27
+msgid "index.php?option=com_search&amp;view=serach"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:29
+msgid "Search"
+msgstr "Search"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:34
+msgid "View your inbox"
+msgstr "View your inbox"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:35
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/homepage.tpl:52
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/homepage.tpl:54
+msgid "&amp;view=messages"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:43
+msgid "Personal address book with friends contacts"
+msgstr "Personal address book with friends contacts"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:46
+msgid "Contacts"
+msgstr "Contacts"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:51
+msgid "Personal calendar of events"
+msgstr "Personal calendar of events"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:52
+msgid "&amp;view=messages&amp;do=calendar"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:59
+msgid "Manage your friends, and activity subscription"
+msgstr "Manage your friends, and activity subscription"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:60
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/homepage.tpl:56
+msgid "&amp;view=friends"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:68
+msgid "Your private widget page"
+msgstr "Your private widget page"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:69
+msgid "&amp;view=widgets"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:71
+msgid "Widgets"
+msgstr "Widgets"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:76
+msgid "Manage, explore and join groups"
+msgstr "Manage, explore and join groups"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:79
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:18
+msgid "Groups"
+msgstr "Groups"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:84
+msgid "Photo albums and galleries"
+msgstr "Photo albums and galleries"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:85
+msgid "&amp;view=photos"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:87
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:22
+msgid "Photos"
+msgstr "Photos"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:151
+msgid "There are no new notices or messages"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/dashboard.tpl:158
+msgid "There are no new new recomendations for you at this time "
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:14
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:15
+msgid "Profile Information"
+msgstr "Profile Information"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:16
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:51
+msgid "Timeline"
+msgstr "Timeline"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:17
+#, fuzzy
+msgid "Recent Profile activity"
+msgstr "Recent groups activity"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:19
+msgid "Groups and Lists"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:20
+msgid "Events"
+msgstr "Events"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:21
+#, fuzzy
+msgid "Agenda and Upcoming  Events"
+msgstr "Agenda and events"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:23
+msgid "Photos and Videos"
+msgstr "Photos and Videos"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:26
+msgid "Send a private message"
+msgstr "Send a private message"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:28
+msgid "Friends and connections"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:54
+msgid "Add as friend"
+msgstr "Add as friend"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:65
+#, php-format
+msgid "Hey there! %1s is a member of %2s"
+msgstr "Hey there! %1s is a member of %2s"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:66
+#, php-format
+msgid "Sign Up now or log-in to interact with %s"
+msgstr "Sign Up now or log-in to interact with %s"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:76
+msgid "Profile Agenda and Events"
+msgstr "Profile Agenda and Events"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:78
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:105
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:109
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:67
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:83
+#, php-format
+msgid "%s has either not yet edited this section of his profile, or has set this section to private, Log-in, and or befriend this user to open a new line of contact"
+msgstr "%s has set this section of their profile to private."
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:94
+#, php-format
+msgid "pending confirmation from  %s"
+msgstr "pending confirmation from  %s"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:104
+msgid "Profile Groups and Lists subscribed to"
+msgstr "Profile Groups and Lists subscribed to"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:108
+msgid "Profile Photo and Video Galleries"
+msgstr "Profile Photo and Video Galleries"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:165
+msgid "You need to be logged in to send a private message"
+msgstr "You need to be logged in to send a private message"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/default.tpl:184
+msgid "Message"
+msgstr "Message"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/homepage.tpl:13
+msgid "Welcome home!"
+msgstr "Welcome home!"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/homepage.tpl:13
+msgid "&amp;view=profile&amp;do=profile"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/homepage.tpl:38
+msgid "Your dashboard"
+msgstr "Your dashboard"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/homepage.tpl:40
+msgid "Recent Activity"
+msgstr "Recent Activity"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/homepage.tpl:42
+msgid "Your files and resources"
+msgstr "Your files and resources"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/homepage.tpl:44
+msgid "Applications control panel"
+msgstr "Applications control panel"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/homepage.tpl:46
+msgid "Global account settings"
+msgstr "Global account settings"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/homepage.tpl:50
+msgid "&amp;view=profile&do=view"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/homepage.tpl:52
+msgid "Important notifications"
+msgstr "Important notifications"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/homepage.tpl:56
+msgid "Manage your friends"
+msgstr "Manage your friends"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/homepage.tpl:58
+msgid "&amp;view=core&do=help"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/homepage.tpl:60
+msgid "index.php?option=com_user&amp;task=logout&return="
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/homepage.tpl:60
+msgid "Log out of profile"
+msgstr "Log out of your profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:5
+msgid "General Profile Information"
+msgstr "General Profile Information"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:7
+msgid "Date of Birth:"
+msgstr "Date of Birth:"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:12
+msgid "Member Since:"
+msgstr "Member Since:"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:17
+msgid "Last seen in the community:"
+msgstr "Last seen in the community:"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:23
+msgid "Profile Ratings, Rankings and Points"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:25
+msgid "Profile rating:"
+msgstr "Profile rating:"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:28
+msgid "index.php?format=json"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:29
+msgid "Not so great"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:30
+msgid "Quite good"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:31
+#, fuzzy
+msgid "Great"
+msgstr "Create"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:32
+msgid "Very good!"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:33
+#, fuzzy
+msgid "Great!"
+msgstr "Create"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:34
+msgid "Excellent!"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:35
+#, fuzzy
+msgid "Rate Profile"
+msgstr "Profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:48
+msgid "Profile Badges and Awards"
+msgstr "Profile Badges and Awards"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:51
+#, php-format
+msgid "%s has not yet earned any badges or awards"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:57
+msgid "Contact Information"
+msgstr "Contact Information"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/information.tpl:72
+msgid "More info About Me"
+msgstr "More info About Me"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/memberslist.tpl:6
+msgid "Community Directory"
+msgstr "Community Directory"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/memberslist.tpl:15
+msgid "Executive Team"
+msgstr "Executive Team"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/memberslist.tpl:30
+msgid "Community members list"
+msgstr "Community members list"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/memberslist.tpl:47
+#, php-format
+msgid "Member since %s"
+msgstr "Member since %s"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/memberslist.tpl:48
+#, php-format
+msgid " Last visited about %s"
+msgstr " Last visited about %s"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/memberslist.tpl:55
+msgid "Add as Friend"
+msgstr "Add as Friend"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/resources.tpl:6
+msgid "Directory context filter"
+msgstr "Directory context filter"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/resources.tpl:8
+msgid "audio"
+msgstr "audio"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/resources.tpl:9
+msgid "avatars"
+msgstr "avatars"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/resources.tpl:10
+msgid "backgrounds"
+msgstr "backgrounds"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/resources.tpl:11
+msgid "archives"
+msgstr "archives"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/resources.tpl:12
+msgid "documents"
+msgstr "documents"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/resources.tpl:13
+msgid "web links"
+msgstr "web links"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/resources.tpl:14
+msgid "photos"
+msgstr "photos"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/resources.tpl:15
+msgid "videos"
+msgstr "videos"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/resources.tpl:17
+msgid "web feeds"
+msgstr "web feeds"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/resources.tpl:18
+msgid "view all"
+msgstr "view all"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/resources.tpl:21
+msgid "Uploaded Files"
+msgstr "Uploaded Files"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/resources.tpl:22
+msgid "Download selected"
+msgstr "Download selected"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/resources.tpl:23
+msgid "Delete selected"
+msgstr "Delete selected"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/resources.tpl:37
+msgid "Resource name"
+msgstr "Resource name"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/resources.tpl:38
+msgid "Date added"
+msgstr "Date added"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/resources.tpl:39
+msgid "Type"
+msgstr "Type"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/resources.tpl:40
+msgid "Size"
+msgstr "Size"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:5
+msgid "Basic Profile"
+msgstr "Basic Profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:6
+msgid "Socialbook information"
+msgstr "Socialbook information"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:7
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:46
+msgid "Privacy settings"
+msgstr "Privacy settings"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:8
+msgid "Profile design"
+msgstr "Profile design"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:14
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/setup.tpl:18
+msgid "Account Information"
+msgstr "Account Information"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:19
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/setup.tpl:43
+msgid "Your full name"
+msgstr "Your full name"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:27
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/setup.tpl:68
+msgid "E-mail address"
+msgstr "E-mail address"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:34
+msgid "Username (aA-zZ,0-9)"
+msgstr "Username (aA-zZ,0-9)"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:41
+msgid "Password (at least 9 chars)"
+msgstr "Password (at least 9 chars)"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:48
+msgid "Verify password"
+msgstr "Verify password"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:55
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/setup.tpl:60
+msgid "Your date of birth"
+msgstr "Your date of birth"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:63
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/setup.tpl:50
+msgid "Gender"
+msgstr "Gender"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:66
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/setup.tpl:53
+msgid "Male"
+msgstr "Male"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:67
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/setup.tpl:54
+msgid "Female"
+msgstr "Female"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:74
+msgid "Suspend my account"
+msgstr "Suspend my account"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:77
+msgid "You will be logged out when this form is submitted"
+msgstr "You will be logged out when this form is submitted"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:82
+msgid "Delete my account"
+msgstr "Delete my account"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:85
+msgid "Your data will be lost. Archive and downloaded it first"
+msgstr "Your data will be lost. Archive and downloaded it first"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:92
+msgid "Update Account"
+msgstr "Update Account"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:105
+msgid "Chose Profile Picture"
+msgstr "Chose Profile Picture"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:111
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/setup.tpl:83
+msgid "Upload a smart, unique, and appealing photo of yourself."
+msgstr "Upload a smart, unique, and appealing photo of yourself."
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:129
+msgid "Contact information"
+msgstr "Contact information"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:135
+msgid "Your Company/Organisation name"
+msgstr "Your Company/Organisation name"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:142
+msgid "Website"
+msgstr "Website"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:149
+msgid "Street adress"
+msgstr "Street adress"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:156
+msgid "Region/County/Province"
+msgstr "Region/County/Province"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:163
+msgid "Town/City"
+msgstr "Town/City"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:170
+msgid "Postal code / Zip code"
+msgstr "Postal code / Zip code"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:177
+msgid "Main phone"
+msgstr "Main phone"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:184
+msgid "Contact email"
+msgstr "Contact email"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:198
+msgid "Skype ID"
+msgstr "Skype ID"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:205
+msgid "Windows Live ID"
+msgstr "Windows Live ID"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:212
+msgid "Yahoo ID"
+msgstr "Yahoo ID"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:219
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:226
+msgid "AOL messenger"
+msgstr "AOL messenger"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:235
+msgid "Update contact information"
+msgstr "Update contact information"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:249
+msgid "Language and localization"
+msgstr "Language and localization"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:254
+msgid "Your country"
+msgstr "Your country"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:257
+msgid "Australia"
+msgstr "Australia"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:258
+msgid "Austria"
+msgstr "Austria"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:259
+msgid "Belgium"
+msgstr "Belgium"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:260
+msgid "Brazil"
+msgstr "Brazil"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:261
+msgid "Canada"
+msgstr "Canada"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:262
+msgid "Chile"
+msgstr "Chile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:263
+msgid "China"
+msgstr "China"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:264
+msgid "Czech Republic"
+msgstr "Czech Republic"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:265
+msgid "Denmark"
+msgstr "Denmark"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:266
+msgid "Finland"
+msgstr "Finland"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:267
+msgid "France"
+msgstr "France"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:268
+msgid "Germany"
+msgstr "Germany"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:269
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:270
+msgid "India"
+msgstr "India"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:271
+msgid "Ireland"
+msgstr "Ireland"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:272
+msgid "Italy"
+msgstr "Italy"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:273
+msgid "Japan"
+msgstr "Japan"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:274
+msgid "Kenya"
+msgstr "Kenya"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:275
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:276
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:277
+msgid "Netherlands"
+msgstr "Netherlands"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:278
+msgid "New Zealand"
+msgstr "New Zealand"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:279
+msgid "Norway"
+msgstr "Norway"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:280
+msgid "Poland"
+msgstr "Poland"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:281
+msgid "Portugal"
+msgstr "Portugal"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:282
+msgid "Russia"
+msgstr "Russia"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:283
+msgid "Singapore"
+msgstr "Singapore"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:284
+msgid "Slovakia"
+msgstr "Slovakia"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:285
+msgid "South Africa"
+msgstr "South Africa"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:286
+msgid "Spain"
+msgstr "Spain"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:287
+msgid "Sweden"
+msgstr "Sweden"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:288
+msgid "Switzerland"
+msgstr "Switzerland"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:289
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:290
+msgid "Thailand"
+msgstr "Thailand"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:291
+msgid "United Kingdom"
+msgstr "United Kingdom"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:292
+msgid "United States"
+msgstr "United States"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:298
+msgid "Time zone"
+msgstr "Time zone"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:301
+msgid "(GMT -12:00) Eniwetok, Kwajalein"
+msgstr "(GMT -12:00) Eniwetok, Kwajalein"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:302
+msgid "(GMT -11:00) Midway Island, Samoa"
+msgstr "(GMT -11:00) Midway Island, Samoa"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:303
+msgid "(GMT -10:00) Hawaii"
+msgstr "(GMT -10:00) Hawaii"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:304
+msgid "(GMT -9:00) Alaska"
+msgstr "(GMT -9:00) Alaska"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:305
+msgid "(GMT -8:00) Pacific Time (US &amp; Canada)"
+msgstr "(GMT -8:00) Pacific Time (US &amp; Canada)"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:306
+msgid "(GMT -7:00) Mountain Time (US &amp; Canada)"
+msgstr "(GMT -7:00) Mountain Time (US &amp; Canada)"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:307
+msgid "(GMT -6:00) Central Time (US &amp; Canada), Mexico City"
+msgstr "(GMT -6:00) Central Time (US &amp; Canada), Mexico City"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:308
+msgid "(GMT -5:00) Eastern Time (US &amp; Canada), Bogota, Lima"
+msgstr "(GMT -5:00) Eastern Time (US &amp; Canada), Bogota, Lima"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:309
+msgid "(GMT -4:00) Atlantic Time (Canada), Caracas, La Paz"
+msgstr "(GMT -4:00) Atlantic Time (Canada), Caracas, La Paz"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:310
+msgid "(GMT -3:30) Newfoundland"
+msgstr "(GMT -3:30) Newfoundland"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:311
+msgid "(GMT -3:00) Brazil, Buenos Aires, Georgetown"
+msgstr "(GMT -3:00) Brazil, Buenos Aires, Georgetown"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:312
+msgid "(GMT -2:00) Mid-Atlantic"
+msgstr "(GMT -2:00) Mid-Atlantic"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:313
+msgid "(GMT -1:00 hour) Azores, Cape Verde Islands"
+msgstr "(GMT -1:00 hour) Azores, Cape Verde Islands"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:314
+msgid "(GMT) Western Europe Time, London, Lisbon, Casablanca"
+msgstr "(GMT) Western Europe Time, London, Lisbon, Casablanca"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:315
+msgid "(GMT +1:00 hour) Brussels, Copenhagen, Madrid, Paris"
+msgstr "(GMT +1:00 hour) Brussels, Copenhagen, Madrid, Paris"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:316
+msgid "(GMT +2:00) Kaliningrad, South Africa"
+msgstr "(GMT +2:00) Kaliningrad, South Africa"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:317
+msgid "(GMT +3:00) Baghdad, Riyadh, Moscow, St. Petersburg"
+msgstr "(GMT +3:00) Baghdad, Riyadh, Moscow, St. Petersburg"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:318
+msgid "(GMT +3:30) Tehran"
+msgstr "(GMT +3:30) Tehran"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:319
+msgid "(GMT +4:00) Abu Dhabi, Muscat, Baku, Tbilisi"
+msgstr "(GMT +4:00) Abu Dhabi, Muscat, Baku, Tbilisi"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:320
+msgid "(GMT +4:30) Kabul"
+msgstr "(GMT +4:30) Kabul"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:321
+msgid "(GMT +5:00) Ekaterinburg, Islamabad, Karachi, Tashkent"
+msgstr "(GMT +5:00) Ekaterinburg, Islamabad, Karachi, Tashkent"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:322
+msgid "(GMT +5:30) Bombay, Calcutta, Madras, New Delhi"
+msgstr "(GMT +5:30) Bombay, Calcutta, Madras, New Delhi"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:323
+msgid "(GMT +5:45) Kathmandu"
+msgstr "(GMT +5:45) Kathmandu"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:324
+msgid "(GMT +6:00) Almaty, Dhaka, Colombo"
+msgstr "(GMT +6:00) Almaty, Dhaka, Colombo"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:325
+msgid "(GMT +7:00) Bangkok, Hanoi, Jakarta"
+msgstr "(GMT +7:00) Bangkok, Hanoi, Jakarta"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:326
+msgid "(GMT +8:00) Beijing, Perth, Singapore, Hong Kong"
+msgstr "(GMT +8:00) Beijing, Perth, Singapore, Hong Kong"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:327
+msgid "(GMT +9:00) Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+msgstr "(GMT +9:00) Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:328
+msgid "(GMT +9:30) Adelaide, Darwin"
+msgstr "(GMT +9:30) Adelaide, Darwin"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:329
+msgid "(GMT +10:00) Eastern Australia, Guam, Vladivostok"
+msgstr "(GMT +10:00) Eastern Australia, Guam, Vladivostok"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:330
+msgid "(GMT +11:00) Magadan, Solomon Islands, New Caledonia"
+msgstr "(GMT +11:00) Magadan, Solomon Islands, New Caledonia"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:331
+msgid "(GMT +12:00) Auckland, Wellington, Fiji, Kamchatka"
+msgstr "(GMT +12:00) Auckland, Wellington, Fiji, Kamchatka"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:340
+msgid "Social Profile"
+msgstr "Social Profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:348
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:429
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:482
+msgid "Only me"
+msgstr "Only me"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:350
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:431
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:484
+msgid "Registered"
+msgstr "Registered"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:351
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:432
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:485
+msgid "Anybody"
+msgstr "Anybody"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:356
+msgid "Who can view your profile?"
+msgstr "Who can view your profile?"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:369
+msgid "Who can view your social book?"
+msgstr "Who can view your social book?"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:382
+msgid "List profile in search result to"
+msgstr "List profile in search result to"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:396
+msgid "View my profile picture"
+msgstr "View my profile picture"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:410
+msgid "View my profile acitivity"
+msgstr "View my profile acitivity"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:437
+msgid "Can view your photos"
+msgstr "Can view your photos"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:450
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:463
+msgid "Can comment on your photos"
+msgstr "Can comment on your photos"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:490
+msgid "Who can view your contact info?"
+msgstr "Who can view your contact info?"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:506
+msgid "Update privacy settings"
+msgstr "Update privacy settings"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:525
+msgid "1. Chose from available designs"
+msgstr "1. Chose from available designs"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:526
+msgid "Clean existing style settings"
+msgstr "Clean existing style settings"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:545
+msgid "2. Modify the current style to create your own design"
+msgstr "2. Modify the current style to create your own design"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:632
+msgid "3. Chose an existing wallpaper to go with your design"
+msgstr "3. Chose an existing wallpaper to go with your design"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:647
+msgid "You do not yet have any backgrounds, Upload one below"
+msgstr "You do not yet have any backgrounds, Upload one below"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:658
+msgid "4. Don't like these wallpapers? Upload more."
+msgstr "4. Don't like these wallpapers? Upload more."
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:665
+msgid "Repeat Background image"
+msgstr "Repeat Background image"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/profile/tmpl/settings.tpl:674
+msgid "Update style settings"
+msgstr "Update style settings"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:8
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/default.tpl:24
+msgid "Create a new account"
+msgstr "Create a new account"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:8
+msgid "register"
+msgstr "register"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:9
+msgid "Already have an account?"
+msgstr "Already have an account?"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:9
+msgid "login"
+msgstr "login"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:10
+msgid "Forgot your login details?"
+msgstr "Forgot your login details?"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:10
+msgid "reset"
+msgstr "reset"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:19
+msgid "Full Name"
+msgstr "Full Name"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:26
+msgid "Valid e-mail"
+msgstr "Valid e-mail"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:33
+msgid "Username (mininum of 6 chars, aA-zZ,0-9 only)"
+msgstr "Username (mininum of 6 chars, aA-zZ,0-9 only)"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:38
+msgid "Password (minimun of 8 chars)"
+msgstr "Password (minimun of 8 chars)"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:43
+msgid "Verify Password"
+msgstr "Verify Password"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:50
+msgid "Invitation code"
+msgstr "Invitation code"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:62
+msgid "I agree to the terms of use of this service"
+msgstr "I agree to the terms of use of this service"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:67
+msgid "Create account"
+msgstr "Create account"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:83
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:105
+msgid "index.php?option=com_user"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:86
+msgid "What is your e-mail address"
+msgstr "What is your e-mail address"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:92
+msgid "Resend my login details"
+msgstr "Resend my login details"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:108
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/default.tpl:14
+msgid "Username"
+msgstr "Username"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:113
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/default.tpl:16
+msgid "Password"
+msgstr "Password"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:121
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:126
+msgid "Log-in to my profile"
+msgstr "Log-in to my profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/authentication.tpl:141
+msgid "Back to Community Homepage"
+msgstr "Back to Community Homepage"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/default.tpl:20
+msgid "Remember my login details"
+msgstr "Remember my login details"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/default.tpl:22
+msgid "&amp;view=welcome&do=auth#tReset"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/default.tpl:22
+msgid "Forgot Log-in details?"
+msgstr "Forgot your login credentials?"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/default.tpl:27
+msgid "Sign-in"
+msgstr "Sign in "
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/default.tpl:44
+msgid "Welcome .."
+msgstr "Welcome.."
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/default.tpl:45
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/default.tpl:58
+msgid "&amp;view=profile&amp;do=homepage"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/default.tpl:54
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/default.tpl:84
+msgid "Recent activity"
+msgstr "Recent activity"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/default.tpl:58
+msgid "Go to your dashboard"
+msgstr "Go to your dashboard"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/default.tpl:62
+msgid "View members list"
+msgstr "View members list"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/default.tpl:83
+msgid "Welcome lobby"
+msgstr "Welcome lobby"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/default.tpl:90
+msgid "index.php?option=com_tuiyo&format=json"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:6
+msgid "Welcome to your user manual"
+msgstr "Welcome to your user manual"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:8
+msgid "Back to profile!"
+msgstr "Back to profile!"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:13
+msgid "Creating a new account"
+msgstr "Creating a new account"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:14
+msgid "Signing in to our site"
+msgstr "Signing in to our site"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:15
+msgid "Creating your basic profile"
+msgstr "Creating your basic profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:16
+msgid "Things to consider"
+msgstr "Things to consider"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:17
+msgid "The goals of our site"
+msgstr "The goals of our site"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:18
+msgid "Quick overview presentation"
+msgstr "Quick overview presentation"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:21
+msgid "Managing your Account"
+msgstr "Managing your Account"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:23
+msgid "Global account configuration"
+msgstr "Global account configuration"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:24
+msgid "Your uploads and resources"
+msgstr "Your uploads and resources"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:25
+msgid "Help/Important tips"
+msgstr "Help/Important tips"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:26
+msgid "Activity and Timeline"
+msgstr "Activity and Timeline"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:27
+msgid "Suspend/Delete your profile"
+msgstr "Suspend/Delete your profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:28
+msgid "Managing your friends"
+msgstr "Managing your friends"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:29
+msgid "Importing/Inviting friends"
+msgstr "Importing/Inviting friends"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:30
+msgid "Messsages and notifications"
+msgstr "Messsages and notifications"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:31
+msgid "Styling your profile"
+msgstr "Styling your profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:35
+msgid "Application specific"
+msgstr "Application specific"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:37
+msgid "How applications work"
+msgstr "How applications work"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:38
+msgid "Add/Remove applications"
+msgstr "Add/Remove applications"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:39
+msgid "Application  settings"
+msgstr "Application  settings"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:40
+msgid "External API"
+msgstr "External API"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:44
+msgid "Privacy and security"
+msgstr "Privacy and security"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:47
+msgid "Hacked profile?"
+msgstr "Hacked profile?"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:48
+msgid "Remaining safe"
+msgstr "Remaining safe"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:60
+msgid "User manual"
+msgstr "User manual"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:62
+msgid "Need More help?"
+msgstr "Need More help?"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:69
+msgid "Chapter 1.0: Gettings Started"
+msgstr "Chapter 1.0: Gettings Started"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:70
+msgid "&redirect=eventlist&ref=welcome"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:72
+msgid "Chapter 1.1: Creating a new account"
+msgstr "Chapter 1.1: Creating a new account"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:73
+msgid "Chapter 1.2: Signing in to our sites"
+msgstr "Chapter 1.2: Signing in to our sites"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:74
+msgid "Chapter 1.3: Creating a basic profile"
+msgstr "Chapter 1.3: Creating a basic profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:75
+msgid "Chapter 1.4: Things to consider"
+msgstr "Chapter 1.4: Things to consider"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:76
+msgid "Chapter 1.5: The goals of our site"
+msgstr "Chapter 1.5: The goals of our site"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:77
+msgid "Chapter 1.6: Guided tour"
+msgstr "Chapter 1.6: Guided tour"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:80
+msgid "Chapter 2.0: Managing your account"
+msgstr "Chapter 2.0: Managing your account"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:81
+msgid "Chapter 2.1: Global account configurations"
+msgstr "Chapter 2.1: Global account configurations"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:82
+msgid "Chapter 2.2: File uploads and resource management"
+msgstr "Chapter 2.2: File uploads and resource management"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:83
+msgid "Chapter 2.3: Useful tips for managing your profile"
+msgstr "Chapter 2.3: Useful tips for managing your profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:84
+msgid "Chapter 2.4: Activity and Timeline"
+msgstr "Chapter 2.4: Activity and Timeline"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:85
+msgid "Chapter 2.5: Suspend or delete your profile"
+msgstr "Chapter 2.5: Suspend or delete your profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:86
+msgid "Chapter 2.6: Managing your friends"
+msgstr "Chapter 2.6: Managing your friends"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:87
+msgid "Chapter 2.7: Inviting more friends"
+msgstr "Chapter 2.7: Inviting more friends"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:88
+msgid "Chapter 2.8: Messages and notifications"
+msgstr "Chapter 2.8: Messages and notifications"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:89
+msgid "Chapter 2.9: Styling your profile"
+msgstr "Chapter 2.9: Styling your profile"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:92
+msgid "Chapter 3.0: Application specific Help and Support"
+msgstr "Chapter 3.0: Application specific Help and Support"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:93
+msgid "Chapter 3.1: How profile applications work"
+msgstr "Chapter 3.1: How profile applications work"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:94
+msgid "Chapter 3.2: Add or remove applications"
+msgstr "Chapter 3.2: Add or remove applications"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:95
+msgid "Chapter 3.3: Applications settings"
+msgstr "Chapter 3.3: Applications settings"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:96
+msgid "Chapter 3.4: External Applications"
+msgstr "Chapter 3.4: External Applications"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:97
+msgid "Chapter 3.5"
+msgstr "Chapter 3.5"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:98
+msgid "Chapter 3.6"
+msgstr "Chapter 3.6"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:101
+msgid "Chapter 4.0: Privacy and security"
+msgstr "Chapter 4.0: Privacy and security"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:102
+msgid "Chapter 4.1: Basic Privacy settings"
+msgstr "Chapter 4.1: Basic Privacy settings"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:103
+msgid "Chapter 4.2: Think your profile has been Hacked?"
+msgstr "Chapter 4.2: Think your profile has been Hacked?"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:104
+msgid "Chapter 4.3: Keeping safe on the internet"
+msgstr "Chapter 4.3: Keeping safe on the internet"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:105
+msgid "Chapter 4.4"
+msgstr "Chapter 4.4"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:106
+msgid "Chapter 4.5"
+msgstr "Chapter 4.5"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/help.tpl:107
+msgid "Chapter 4.6"
+msgstr "Chapter 4.6"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/setup.tpl:1
+msgid "behavior.calendar"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/setup.tpl:6
+msgid "Hey there... It looks like this is your first time here!. Check out this important information, complete the forms and click the button below when completed. We will then help u set up your basic profile."
+msgstr "Hey there... It looks like this is your first time here!. Check out this important information, complete the forms and click the button below when completed. We will then help u set up your basic profile."
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/setup.tpl:8
+msgid "Set-me-up!"
+msgstr "Set-me-up!"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/setup.tpl:17
+msgid "Rules"
+msgstr "Rules"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/setup.tpl:19
+msgid "Social Information"
+msgstr "Social Information"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/setup.tpl:20
+msgid "Profile picture"
+msgstr "Profile picture"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/welcome/tmpl/setup.tpl:35
+msgid "I have read and understand these terms and conditions"
+msgstr "I have read and understand these terms and conditions"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/widgets/tmpl/contentpanel.tpl:23
+msgid "I'm done adding widgets"
+msgstr ""
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/widgets/tmpl/default.tpl:7
+#, php-format
+msgid "%s | Widgets"
+msgstr "%s | Widgets"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/widgets/tmpl/default.tpl:13
+msgid "Toggle All"
+msgstr "Toggle All"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/widgets/tmpl/default.tpl:14
+msgid "New Tab"
+msgstr "New Tab"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/widgets/tmpl/default.tpl:24
+msgid "Add Content"
+msgstr "Add Content"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/widgets/tmpl/default.tpl:26
+msgid "Back to homepage"
+msgstr "Back to homepage"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/widgets/tmpl/default.tpl:46
+msgid "Tab Title"
+msgstr "Tab Title"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/widgets/tmpl/default.tpl:54
+#, php-format
+msgid "2 columns (50% each)"
+msgstr "2 columns (50% each)"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/widgets/tmpl/default.tpl:59
+msgid "2 columns (35%,65%)"
+msgstr "2 columns (35%,65%)"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/widgets/tmpl/default.tpl:64
+#, php-format
+msgid "3 columns (33% each)"
+msgstr "3 columns (33% each)"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/widgets/tmpl/default.tpl:69
+#, php-format
+msgid "4 columns (25% each)"
+msgstr "4 columns (25% each)"
+
+#: C:\wamp\www\joomla\components\com_tuiyo\views/widgets/tmpl/default.tpl:76
+msgid "Add Tab"
+msgstr "Add Tab"
+
+#, fuzzy
+#~ msgid "The group \""
+#~ msgstr "My groups"
+#~ msgid "Featured groups"
+#~ msgstr "Featured groups"
+#~ msgid "Group categories"
+#~ msgstr "Group categories"
+#~ msgid "Your Recently updated Groups"
+#~ msgstr "Your Recently updated Groups"
+#~ msgid "This group is a...(required)"
+#~ msgstr "This group is a...(required)"
+#~ msgid "public group"
+#~ msgstr "public group"
+#~ msgid "private group"
+#~ msgstr "private group"
+#~ msgid "Select a category (required)"
+#~ msgstr "Select a category (required)"
+#~ msgid "Photos tagged of you"
+#~ msgstr "Photos tagged of you"
+#~ msgid "View all friends"
+#~ msgstr "View all friends"
+#~ msgid "Twitter application"
+#~ msgstr "Twitter application"
+#~ msgid "Administrative role:"
+#~ msgstr "Administrative role:"
+#~ msgid "Photo albums"
+#~ msgstr "Photo albums"
+#~ msgid "Profile Groups"
+#~ msgstr "Profile Groups"
+#~ msgid "I'm Done"
+#~ msgstr "I'm Done"
+

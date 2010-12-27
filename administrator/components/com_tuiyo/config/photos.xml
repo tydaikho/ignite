@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<systemparams version="1.5" type="global">
+	<params>
+		<param type="list" name="photosAllowPublicView" label="Allow Guest to browse photo albums?" default="1" >
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="list" name="photosDefaultPrivacy" label="Default album privacy" default="1" >
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>		
+	</params>
+</systemparams>
+ 

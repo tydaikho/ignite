@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="plugin" version="2.0.0">
+	<name>System</name>
+	<author>Tuiyo Project</author>
+	<creationDate>December 2010</creationDate>
+	<copyright>Copyright (C) 2005 - 2010 Livingstone Fultang. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>admin@tuiyo.co.uk</authorEmail>
+	<authorUrl>www.tuiyo.co.uk</authorUrl>
+	<version>1.0.0</version>
+	<description>System service and  Jommla</description>
+	<params group="plugin">
+		<param name="username" type="text" default="" label="Username"  />
+		<param name="password" type="password" default="" label="Password"  />
+	</params>
+	<params group="privacy"></params>
+	<params group="profilepicture"></params>
+</install>

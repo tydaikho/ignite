@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>System - TuiyoAPI</name>
+	<author>Livingstone Fultang</author>
+	<creationDate>June 2009</creationDate>
+	<copyright>Copyright (C) 2009 dr.stonyhills.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>livingstone@joomunity.org</authorEmail>
+	<authorUrl>www.tuiyo.co.uk</authorUrl>
+	<version>1.1.0.R.C</version>
+	<description>The power of the TuiyoComponent Appllication in a plugin</description>
+	<files>
+		<filename>tuiyoapi/api.js</filename>
+		<filename plugin="tuiyoapi">tuiyoapi.php</filename>
+	</files>
+	<params>
+	</params>
+</install>

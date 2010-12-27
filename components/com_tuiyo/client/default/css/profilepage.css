@@ -1,0 +1,100 @@
+#profilepageContainer{color:#333; line-height:130%; margin:0 auto; height: 100%}
+/*#pageLeftNav{float:left; margin:0; min-height:100%; padding: 7px; width:200px; background:#E7ECF1 none repeat-y scroll 100% 0; border-right:1px solid #CCCCCC; }*/
+#profilepageContent{ min-height: 600px}
+.peoplePageHomegPage{ background: #fff }
+.peoplePageHomePageTitle{background:none repeat scroll 0 0 #F7F7F7; border:1px solid #D8DFEA; margin-bottom:11px; padding:5px;}
+.profilepageTitle{min-height: 35px; border-bottom: 1px dashed #ccc }
+.profilePageTitleName{border-bottom:2px solid #EBEBEB; font-size:14px; font-weight:bold; padding:0 4px 4px 0;}
+.profilepageMainPage{/*padding: 0 14px 0 0*/ }
+.profileSplash{border: 1px solid #FFFF00; padding: 14px; background: #FEFFDF none repeat scroll 0% 0%; line-height: 28px; font-size: 125%;}
+
+.profilepageDescription{border-top:1px solid #ccc; padding-bottom:5px; border-bottom:1px solid #CCC}
+#pageNavigation{margin-top:10px;  list-style:none; list-style:none; margin: 8px auto}
+#pageNavigation li{list-style:none; font-size:12px; font-weight:400; min-height:28px; line-height:28px; cursor:pointer}
+#pageNavigation li.current, #pageNavigation li.current:hover{background:transparent url(../images/CurrentFolder.png) repeat-x scroll 0 0; color:#FFF; font-weight:bold; margin-left:-7px; margin-right:-7px; padding-left:7px}
+#pageNavigation li.current a{color:#fff}
+#pageNavigation li:hover{background:#c4daf1; margin-left:-7px; margin-right:-7px; padding-left:7px}
+#pageNavigation li img{padding-right:6px; margin-bottom:-3px}
+#pageNavigation li form{}
+#pageNavigation li .searchIcon{float: left; margin-bottom: -4px; padding-top: 6px;}
+#pageNavigation li .searchInputText{border:1px solid #CCC; margin-right:-5px; padding:4px; float: left}
+#pageNavigation li .searchSubmitButton{background:#F4F4F4 url(../images/searchgo.png) no-repeat scroll 50% 50%; border:1px solid #CCC; width:27px; min-height:17px;}
+.exProfileLi{display: none}
+div.pageItem{ padding-bottom: 10px }
+
+#peoplepageNavigation{margin-left: 0px !important;border-left: 1px solid #ccc }
+#peoplepageNavigation li{background: #D8DFEA none repeat scroll 0 0;
+border: 1px solid #D8DFEA;
+cursor:pointer;
+font-size:12px;
+line-height:20px;
+list-style:none outside none;
+margin:0 5px;
+padding:3px;}
+#peoplepageNavigation li:hover{background: #627AAD none repeat scroll 0 0;}
+#peoplepageNavigation li:hover a{color: #FFF !important}
+#peoplepageNavigation li.current{ background: #FFF none repeat scroll 0 0; border-bottom:1px solid #FFFFFF; color: #356AA00 !important}
+#peoplepageNavigation li a{margin: 0 10px }
+
+ul.profilePanelMenu{ list-style: none; margin: 0px; list-style-position: inside  }
+ul.profilePanelMenu li{ border-bottom: 1px solid #eee; list-style-position: inside; line-height: 25px }
+
+#peoplepageNavigation li img{padding-right:6px; margin-bottom:-3px}
+
+#profilepagePublisher{border:1px solid #e4e4e4; padding:5px; background:#EDF1F8 none repeat scroll 0pt 0pt; width:98%}
+#profilepagePublisher .ptextinput{font-family:"Segoe UI","Lucida Grande",Arial,sans-serif; font-size:13px; height:42px; line-height:20px; width:98%}
+.profilepagePublisherContainer{padding-bottom:8px; /*border-bottom:1px solid #ccc;*/ margin-bottom:10px}
+#profilepagePublisher .psubmit{width:100%; height:50px}
+#profilepagePublisherTabs{border-bottom:1px solid #ccc; margin-bottom:8px}
+#profileFriends h3{	border-bottom-color:#EBEBEB; border-bottom-style:dotted; border-bottom-width:1px; margin-bottom:13px; padding-bottom:4px; padding-left:0; padding-right:0; padding-top:10px;}
+
+ul.profileMenuNavigation li.nomenu, 
+ul.profileFriendsNavigation li.nomenu{ border-bottom: 1px dotted #ccc; margin: 34px -7px 0pt; padding-left: 7px; font-weight: bold }
+ul.myFriends { /*padding-top: 5px;*/ list-style: none }
+ul.myFriends li.link, ul.myFriends li.TuiyoAvatar:link{width: 40px; float: left }
+ul.myFriends img.TuiyoAvatar{ padding: 1px !important }
+
+/*Groups and Lists*/
+div.groupListItem{float: left; padding:4px; width:75px; height: 100px }
+div.groupListItem:hover{background:#EEE none repeat scroll 0pt 0pt;}
+div.groupListItem span{font-size: 10px; line-height: 11px}
+img.groupLogo{border: 1px solid #ccc; padding: 2px;}
+
+/*Photos and Videos **/
+div.photosPageBigScreenItem{margin:2px; overflow:hidden; float:left; position:relative}
+div.photosPageBigScreenItem a{text-decoration:none; float:left}
+div.photosPageBigScreenItem a{background:#EEE none repeat scroll 0pt 0pt;}
+div.photosPageBigScreenItem a:hover{cursor:pointer;  background:#EDF1F8 none repeat scroll 0pt 0pt; }
+
+div.photosPageBigScreenItem a img{float:left;margin:3px;}
+div.photosPageBigScreenItem a .desc{display:none}
+div.photosPageBigScreenItem a:hover .desc{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; background:#111111 none repeat scroll 0 0; bottom:3px;color:#FFFFFF;display:block;left:3px;margin:0;opacity:0.75;padding:5px;position:absolute;width:90px;}
+div.photosPageBigScreenItem a:hover .desc strong{display:block; margin-bottom:5px}
+div.photosPageSlideShowMenu{z-index: 10}
+div.slideShowControls{ padding: 3px 4px 8px; background: transparent url(../images/tuiyobg.png) repeat scroll 0 0; min-height:22px; z-index: 10}
+div.bigScreen{overflow: hidden;}
+div.bigScreen img{border: none; min-width: 100%; margin: auto }
+.photosPageBigScreenInfoDiv{ -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=45)"; opacity: 0.45 }
+.bigScreen{border: none !important }
+/*Slideshow*/
+#slideControls{background: none repeat scroll 0% 0% #f7f7f7; padding: 3px; border-top: 1px solid #e8e8e8; margin-top:10px;}
+#slideControls a.next{ background: url(../images/pagenav.png) no-repeat scroll -39px 0; width: 36px; height: 27px; text-indent: -999em }
+#slideControls a.previous{ background: url(../images/pagenav.png) no-repeat scroll 0 0; width: 36px; height: 27px; text-indent: -999em }
+.slideshowItemDescr{padding: 6px }
+#slideShowBigScreen{background-color: #EDF1F8; width: 100%}
+div.reporter{cursor:pointer; margin: 0 10px; }
+div.slideshowLink{ margin: 5px }
+li.slideshowLi:hover div{display: block; background: #fff; position: absolute; top: 0px; left: 0px; z-index: 1 ; width: 600px; min-height: 400px; height:auto }
+
+
+div.statItem{ width: 60px; margin:10px 4px 2px 2px; min-height: 60px; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; opacity: 0.6; padding: 2px 4px 0px; font-size: 10px; -moz-border-radius: 5px; background: #D4D4D4; cursor: pointer }
+div.statItem:hover{ -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; opacity: 1 ;  }
+div.statIcon{margin-top: 5px; width: 32px; height: 32px }
+#updatesCount .statIcon{  background: url(../images/profile-stats.png) no-repeat scroll 0px -42px;  }
+#commentsCount .statIcon{ background: url(../images/profile-stats.png) no-repeat scroll 0px -168px; }
+#photosCount .statIcon{ background: url(../images/profile-stats.png) no-repeat scroll 0px -126px; }
+#groupsCount .statIcon{ background: url(../images/profile-stats.png) no-repeat scroll 0px -252px; }
+#viewCount .statIcon{ background: url(../images/profile-stats.png) no-repeat scroll 0px 0px;  }
+#addFriend .statIcon{ background: url(../images/profile-stats.png) no-repeat scroll 0px -210px; }
+#friendCount .statIcon{ background: url(../images/profile-stats.png) no-repeat scroll 0px -84px;  }
+

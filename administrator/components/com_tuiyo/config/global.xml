@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<systemparams version="1.5" type="global">
+	<params>
+		<param type="text" name="siteName" label="Site Name" default="Tuiyo Lovers Community" />
+		<param type="text" name="siteTagLine" label="One line site description" default="building communities" />
+		<param type="textarea" name="siteDescription" label="Detailed site description" default="Tuiyo is a multipurpose community building solution for joomla" description="provide a detailed description of your community" />
+		<param type="text" name="siteDateFormat" label="Global date format" default="" description="In case time differences are not used" />
+		<param type="list" name="siteOffline" label="Put site offline?" default="0" description="Activate maintainance mode?">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="list" name="siteAllowRegistration" label="Allow Guest registration?" default="1" >
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="list" name="sitePublicAccess" label="Allow Public access?" default="0"  >
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>	
+		<param type="list" name="siteEnableReporting" label="Allow front end reporting?" default="1" >
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>					
+		<param type="textarea" name="siteReportReasons" label="Front end report reasons" default="spam content, abusive content, racists, defamatory, adult content, public misuse" description="Comma seperated list of report reasons" />
+		<param type="select" name="siteListLength" label="Global list length" default="10" description="List lengths if unspecified" >
+			<option value="10">Ten items (10)</option>
+			<option value="20">Twenty items (20)</option>
+			<option value="30">Thirty items (30)</option>	
+            <option value="40">Fourty items (40)</option>
+            <option value="50">Fifty items (50)</option>			
+		</param>
+		<param type="text" name="siteFBKey" label="Facebook API Key"  description="Visit developers.facebook.com for more details" />
+		<param type="text" name="siteFBSecret" label="Facebook API Secret"  description="Visit developers.facebook.com for more details" />	
+		<param type="list" name="serverEnableCURL" label="Use PHP's CURL library ?" default="0"  >
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>		
+		<param type="text" name="serverHttpProxyName" label="Server Proxy" description="Does your local server use HTTP/FTP/HTTPS proxy ?" />
+		<param type="text" name="serverHttpProxyPort" label="Server Proxy Port" description="Whats the proxy port" />	
+		<param type="list" name="siteEnableServices" label="Allow web services" default="0" >
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+        <param type="text" name="siteUpdateMaxLength" label="Max user update length" default="190" />
+		<param type="list" name="siteEnableCommenting" label="Enable global site commenting" default="1" >
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="list" name="siteEnableLikes" label="Enable global Likes and Disklike" default="1" >
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="list" name="autoPublishArticle" label="Auto Publish Articles" default="0"  >
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>		
+		<param type="text" name="siteMaxFileSize" label="Upload Max file size"  description="Maximum file size in MB a user can upload" />			
+		<param type="text" name="siteUploadQuota" label="User disk Storage quota (MB)"  description="Maximum storage allocation per user. Minimum of 50MB" default="50" />			
+		<param type="textarea" name="siteBannedFileFormat" label="Banned file extensions"  default=".exe, .java" />
+		<param type="list" name="siteEnabledStyles" label="Enable custom styles" default="1" description="If Not users won't be able to style their profiles?">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="list" name="siteEnableGravatars" label="Use globally recogrnized avatar" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>	
+		<param type="list" name="siteGravatarMaxRating"  default="X">
+			<option value="G">G</option>
+			<option value="PG">PG</option>
+			<option value="R">R</option>
+			<option value="X">X</option>
+		</param>
+    </params>
+</systemparams>

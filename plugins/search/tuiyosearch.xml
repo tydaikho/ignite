@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="search">
+	<name>Search - TuiyoSearch</name>
+	<author>Livingstone Fultang</author>
+	<creationDate>June 2009</creationDate>
+	<copyright>Copyright (C) 2009 dr.stonyhills.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>livingstone@joomunity.org</authorEmail>
+	<authorUrl>www.tuiyo.co.uk</authorUrl>
+	<version>1.1.0.R.C</version>
+	<description>A search plugin for tuiyo</description>
+	<files>
+		<filename plugin="tuiyosearch">tuiyosearch.php</filename>
+	</files>
+	<params>
+		<param name="search_limit" type="text" size="5" default="50" label="Search Limit"  description="Number of Search items to return"/>
+	</params>
+</install>

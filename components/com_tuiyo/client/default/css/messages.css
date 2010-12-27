@@ -1,0 +1,84 @@
+.messagesBoxContainer{color:#333 !important; line-height:130%; margin:0 auto; height: 100%; font-size:13px;}
+.messagesBoxContainer a{ cursor:pointer;  text-decoration:none;}
+/*#pageLeftNav{background:#E7ECF1 none repeat-y scroll 100% 0; float:left; margin:0; min-height:700px; padding:7px; width:200px; border-right:1px solid #ccc; height: 100%}*/
+#messagesBoxContent{background:#FFFFFF none repeat scroll 0 0;float:right;line-height:1.6em;padding:12px 14px 0 12px;width: 70%; }
+.messagesBoxMainPage{padding: 0  }
+#messagesBoxFooter{clear:both; margin:0; padding:0.5em; color:#333; background-color:#ddd}
+.messagesBoxFolders{margin-top: 10px}
+.messagesHomegPage{ background: none repeat scroll 0 0 #FFFFFF }
+#messagesBoxTop{/*background: #f4f4f4  none scroll 0 0 no-repeat; */padding-top:3px}
+#newMessageText{width:98.6%; min-height: 200px; border: none; border: 1px solid #ccc; line-height: 150%;}
+ul.NavigationTabs li{background:none; cursor:pointer; display:inline; float:left; line-height:29px; margin-bottom:-1px; margin-right:4px; padding:0 12px 0 6px; color:#fff}
+ul.NavigationTabs li.current{border-color:#CCCCCC #CCCCCC #FFFFFF; border-style:solid; border-width:1px 1px 4px;font-weight:bold;margin-bottom:-4px;z-index:1000; background:#FFFFFF none repeat scroll 0 0;}
+ul.NavigationTabs li img{margin-bottom:-3px; padding-right:2px}
+ul.NavigationTabs li.current a{  }
+ul.NavigationTabs{margin-left:15px; margin-right:15px}
+#messagesBoxNavigationTabs{border-bottom:4px solid #CCCCCC;}
+.userAvatarThumbDiv{border-bottom:1px solid #ccc; padding-bottom:5px}
+.messagesBoxSubNavigation{background:transparent url(../images/MessagesBoxTopTabsSubBG.png) repeat-x scroll 0 0; border-bottom:1px solid #ccc; min-height:22px}
+.messageCount{float: right; margin-right: 10px;} /*span*/
+ul#pageNavigation li:hover .messageCount{float: right; margin-right: 17px; }
+ul#pageNavigation li.current .messageCount{float: right; margin-right: 17px;} /*span*/
+div.unread{background: #ECEEF4 none repeat scroll 0 0; font-weight: bold}
+div.messageIntro{background: #E6F3FC none repeat scroll 0 0; padding: 10px; font-style: italic; border: 1px dashed #ccc; margin-bottom: 10px}
+/*Message Lists */
+.messageBoxMessageListItemRead{/*padding:10px;*/}
+.messageBoxListItems{/*min-height: 630px; background: transparent url(../images/databg_now.png) repeat scroll 0 0;*/}
+.messagesListHeader .tuiyoTableCell{padding: 3px;}
+.messageBoxListItems .tuiyoTableCell input{padding: 3px 4px 2px 4px; border: 1px solid #ccc; width: 14px}
+.messageBoxListItems .tuiyoTableCell{line-height:14px; padding: 0px 3px}
+.tuiyoTableHeaderRow{color: #666 }
+.messagesBoxMessageListItem{border-bottom:1px solid #E1E1E1;color:#777777;cursor:pointer;margin:3px;padding:4px 0;height:38px;}
+.messagesBoxMessageListItem img{margin-bottom: -3px; padding-right: 2px}
+.messagesBoxMessageListItem:hover{ background: #F3F3F3 none repeat scroll 0 0 }
+.pmssource{text-indent: -9999em; float: left}
+
+li#messagePageTitle{ min-width: 400px }
+ul#subNavigation{margin-top: 5px}
+ul#subNavigation li{ display: inline; list-style: none; padding: 7px }
+ul#subNavigation li a{padding: 0px; margin-top: 5px}
+
+/*#messagesMenu{margin-left: 0px !important; padding-left:14px; border-left: 1px solid #ccc }
+#messagesMenu li{background:transparent none repeat scroll 0 0; line-height:27px; list-style: none; font-size: 12px }
+#messagesMenu li img{padding-right:6px; margin-bottom:-3px}*/
+
+
+ul.widgetPageTabItems li, ul.widgetSettingsTabs li{background:transparent url(../images/homepagePublisherTabBG.png) repeat-x scroll 0 0; border:1px solid #CCC; cursor:pointer; display:inline; float:left; line-height:29px; margin-bottom:-1px; margin-right:4px; padding:0 12px 0 6px}
+ul.widgetPageTabItems li.current, ul.widgetSettingsTabs li.current{background:none; border-bottom:1px solid #fff}
+ul.widgetPageTabItems li img, ul.widgetSettingsTabs li img{margin-bottom:-3px; padding-right:2px}
+ul.widgetPageTabItems, ul.widgetSettingsTabs{margin-left:2px; margin-right:15px}
+#widgetSettingsTabsDiv, #widgetWallPublisherTabs{border-bottom:1px solid #ccc; /*margin-bottom:8px*/}
+.widgetSettingsBody{height: 330px; overflow-y: scroll;}
+.toSelectListItem{border: 1px solid #ebebeb; margin: 3px; padding: 4px;}
+.toSelectListItemCheck{width: 5%; padding-top: 3px;}
+.selectAllLi{border:none !important; margin: 2px 0 -3px; background: transparent none no-repeat scroll 0pt 0pt !important; }
+div.sendTo{ background:none repeat scroll 0 0 #D8DFEA; border:1px solid #ADD2F8; float:left; margin:2px; padding:2px; }
+div.sendTo a.remove{ background:url("../icons/delete_16.png") no-repeat scroll 100% 0 transparent; height:16px; padding-right:20px; width:16px;}
+.addRecipient{background:url("../images/searchgo.png") no-repeat scroll 50% 50% transparent; float:left; height:28px; text-indent:-99999em; width:18px;}
+div.widgetWallsettingsBox{display: none; width:390px; margin:10px -10px 0; }
+
+li .searchIcon{float:left; margin-right:-1px; margin-top: 2px; padding-top:6px}
+li .searchInputText{border: none !important; background: transparent none scroll no-repeat 0 0 ;float:left;margin:2px 0px 1px 0 !important;padding:4px;width:258px !important;}
+li .searchSubmitButton{background:#F4F4F4 url(../images/searchgo.png) no-repeat scroll 50% 50%;border:1px solid #CCCCCC;margin-top:2px;width:26px;}
+input.masterSelect{border: none; margin-top: -3px }
+input.childSelect{border: none !important; max-height: 14px }
+
+.publisherTabItems {margin-left: 0px !important;border-left: 1px solid #ccc }
+.publisherTabItems li{background: #D8DFEA none repeat scroll 0 0;
+border: 1px solid #D8DFEA;
+cursor:pointer;
+font-size:12px;
+line-height:20px;
+list-style:none outside none;
+margin:0 5px;
+padding:3px;}
+.publisherTabItems li:hover{background: #356AA0 none repeat scroll 0 0;}
+.publisherTabItems li:hover a{color: #FFF !important}
+.publisherTabItems li.current{ background: #FFF none repeat scroll 0 0; border-bottom:1px solid #FFFFFF; color: #356AA0 !important}
+.publisherTabItems li a{margin: 0 10px }
+
+.publisherTabItems li img{padding-right:6px; margin-bottom:-3px}
+
+#messagesBoxMainPagePublisherTabs{background:none repeat scroll 0 0 transparent ; border-bottom:1px solid #D8DFEA; margin-bottom:8px; padding-top:4px;}
+
+#messagesBoxPublisherTabs{border-bottom:1px solid #ccc; /*margin-bottom:8px*/}

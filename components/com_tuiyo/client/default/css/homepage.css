@@ -1,0 +1,104 @@
+#homepageContainer{color:#333; line-height:130%; margin:0 auto; height: 100%}
+/*#pageLeftNav{float:left; margin:0; min-height:100%; padding: 7px; width:200px; background:#E7ECF1 none repeat-y scroll 100% 0; border-right:1px solid #CCCCCC; }*/
+#homepageContent{ padding:0; }
+div.dashboardHomegPage{background: #fff }
+#homepageDashboard { min-height: 700px;  }
+/*.homepageMainPage{float:right; padding:14px 14px 0 12px; width: 70%; background: #fff; line-height:1.6em; }*/
+#hoempageFooter{clear:both; margin:0; padding:0.5em; color:#333; background-color:#ddd }
+.helpElements{}
+
+.homepageDescription{border-bottom:1px dotted #CCCCCC; border-top:1px dotted #CCCCCC; padding:5px 0;}
+.homepageWelcome{border-bottom:1px dashed #CCCCCC; margin-bottom:6px; margin-top:0; padding-bottom:5px;}
+.avatarselector{list-style: none; margin:-3px 7px 0 -3px; overflow-y: scroll; overflow-x: hidden; border-bottom:1px solid #CCCCCC; height:400px; }
+.avatarselector li{ border: 1px solid #ccc; margin: 2px; padding: 3px; cursor: pointer }
+.avatarselector li.editCurrent, .avatarselector li:hover{ background-color:#E3FBFA }
+#avatarBigScreen{min-height: 400px; border: 1px solid #ccc; padding: 2px; width: 455px}
+#avatarBigScreen img{max-width: 100%}
+#homepagePublisher{border:1px solid #e4e4e4; padding:5px; background:#EDF1F8 none repeat scroll 0pt 0pt; width:98%}
+#homepagePublisher .ptextinput{font-family:"Segoe UI","Lucida Grande",Arial,sans-serif; font-size:13px; height:42px; line-height:20px; width:98%}
+.homepagePublisherContainer{/* padding-bottom:8px; border-bottom:1px solid #ccc;margin-bottom:10px*/ }
+#homepagePublisher .psubmit{width:100%; height:50px}
+
+
+div.profileStyler td{padding: 3px }
+
+/*Accordion*/
+div.aTAHead{/*border: 1px solid #ccc; font-size: 100%; font-weight: bold; cursor: pointer; padding: 4px; margin: 2px; background:transparent url(../images/homepagePublisherTabBG.png) repeat-x scroll 0 0;*/ background:#F4F4F4 none repeat scroll 0 0;
+border:1px solid #E4E4E4;
+cursor:pointer;
+font-size:100%;
+font-weight:bold;
+margin:2px;
+padding:4px;}
+div.aTAHead img{ border: none; margin: 1px 5px -3px }
+div.dTABody{margin: 4px 2px; }
+
+/* Applications Icons */
+div.icon{margin:2px}
+div.icon a{border:1px solid transparent; color:#555555; display:block; height:60px !important; padding:2px 5px 5px; text-decoration:none; vertical-align:middle; width:80px !important;}
+div.icon img{margin-top: 5px}
+div.icon span{display:block;padding-top:3px}
+div.tuiyoApplicationItem .icon a, div.icon a:hover{background:#f9f9f9 none no-repeat 50% 50%;border-bottom:1px solid #d5d5d5;border-left:1px solid #eee;border-right:1px solid #d5d5d5;border-top:1px solid #eee;color:#356AA0;padding:3px 4px 0px 6px;padding-bottom:4px;}
+div.tuiyoApplicationItem:hover{ border: 1px solid #e4e4e4; background-color: #EDF1F8 }
+
+/* Applications Control Panel */
+.tuiyoApplicationListMenu{ margin: 5px 0px 0px; list-style: none; }
+.tuiyoApplicationListMenu li{line-height: 22px; padding: 4px;}
+.tuiyoApplicationListMenu li.current{ border-color:#CCCCCC #FFFFFF #CCCCCC #CCCCCC; border-style:solid; border-width:1px;margin-right:-1px;  }
+.tuiyoApplicationListMenu li.current:hover{ background: none }
+.tuiyoApplicationListMenu li:hover{background:#E7ECF1;}
+.tuiyoApplicationItem{border: 1px solid #eee; margin: 6px 0}
+.appListItem{border:1px solid #EBEBEB;margin:3px; padding:6px; clear: both}
+.appItemDescription{min-height:42px; padding:0 9px; width:74%; }
+
+/*Dashboard*/
+div.dashboardHomePageTitle{background:none repeat scroll 0 0 #F7F7F7; height:82px; border: 1px solid #DDDDF0; -moz-border-radius: 4px 4px 4px 4px; -khtml-border-radius: 4px 4px 4px 4px}
+
+.collapser{background: transparent url(../images/collapserbg.png) no-repeat scroll 50% 50%; height: 18px; min-width: 14px !important;  display:inline; float: right; margin-bottom:5px; margin-right:6px; margin-top:4px; min-width:12px; }
+.fileStoreAllowanceFill, 
+.profileProgressFill, .profilePointsFill{ background: blue url(../images/CurrentFolder.png) repeat-x scroll 0 0; height: 20px; margin: -1px}
+#fileStoreAllowance, #profileProgress, #profilePoints{border: 1px solid #c6c6c6; height: 18px; background-color: antiqueWhite; margin: 9px auto; width: 97%;}
+
+.profileNoticeItem{line-height:220%;}
+.profileNoticeItem a.removelink{ float: right; background:url(../icons/delete.png) no-repeat scroll 100% 50% ; width: 16px; height: 23px; text-indent: -9999em }
+#notificationsWidget .unread{ color: #C30; font-weight: bold; background-color:#FAFEE2 }
+
+
+div.friendSuggest{border-bottom: 1px dotted #ccc; margin:7px; }
+div.friendSuggestItemUserBody{ font-size: 10px; line-height: 13px }
+
+/*AsyncUpload*/
+input.stylePreset{ width: 134px; height: 134px !important }
+div#previewImageList div.previewImage,div#backgroundImageList div.backgroundImage{padding: 2px; margin: 7px; border: 1px solid #ccc; height: 100px; overflow: hidden}
+div.ProgressBar { width: 300px; padding: 0; border: 1px solid #ccc; margin-right: 1em; height: 20px; margin-left:1em; display:-moz-inline-stack; display:inline-block; zoom:1; display:inline; }
+div.ProgressBar div { background-color: #A5B7CE; font-size: 1pt; height:100%; float:left; }
+span.asyncUploader object { position: relative; top: 5px; }
+
+div#resourceTableList input{padding: 0px}
+div.tuiyoResourcesListDiv{ min-height: 850px; }
+div.tuiyoResourcesListDiv .tuiyoTableRow:nth-child(odd), .profileNoticeItem:nth-child(odd){background:none repeat scroll 0 0 #f4f4f4}
+div.tuiyoResourcesListDiv .tuiyoTableRow:hover{ background: #FFE763 none repeat scroll 0 0; cursor: pointer }
+div.selectedRow{background: #FFCC99 none repeat scroll 0 0 }
+div.tuiyoResourcesListDiv .tuiyoTableCell{font-size:11px; line-height:13px; padding:4px 0; overflow: hidden}
+div.tuiyoResourcesListDiv .resourceIcon{ text-indent: -9999em; background: transparent url(../icons/resources_16.png) no-repeat scroll 10% 50% }
+div.tuiyoResourcesListDiv .AUDIO{ background-image:url(../icons/music.png); }
+div.tuiyoResourcesListDiv .PHOTOS{ background-image: url(../icons/file_gif_16.png) }
+div.tuiyoResourcesListDiv .ARCHIVE{ background-image: url(../icons/archives.png); }
+div.tuiyoResourcesListDiv .AVATAR{ background-image: url(../icons/useravatar.gif); }
+div.tuiyoResourcesListDiv .WALLPAPER{ background-image: url(../icons/wallpaper.png); }
+
+div.privacyField{ background-attachment:scroll; background-color:#EBEBEB; background-image:none; background-position:0 0; background-repeat:repeat; padding:7px; width:12%;}
+div.privacyFieldTask{padding: 3px; width: 39%}
+div.privacyFieldRow{margin-bottom: 7px; }
+div.privacyFieldRow:hover .tuiyoTableCell{ background-color: #FDFAD9 }
+
+ul.dashboardNavigation{}
+
+
+/*#dashboardNavigation, #dashboardNavigation2{margin-left: 0px !important;  }
+#dashboardNavigation li, #dashboardNavigation2 li{background:transparent none repeat scroll 0 0; line-height:27px; list-style: none; font-size: 12px }
+#dashboardNavigation li img, #dashboardNavigation2 li img{padding-right:6px; margin-bottom:-3px}*/
+#dashboardNavigation li.current{ background: none }
+#dashboardNavigation li:hover, #dashboardNavigation2 li:hover{background: none;}
+
+

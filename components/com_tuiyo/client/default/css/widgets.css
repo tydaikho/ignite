@@ -1,0 +1,118 @@
+*{margin:0; padding:0}
+:focus, :active{outline:0}
+html{min-height:100%}
+body{font-family:"Segoe UI","Lucida Grande",Arial,sans-serif; font-size:0.8em; background:none repeat scroll 0 0; color:#666; min-height:100%; }
+.bubbles{background:transparent url(../images/bubbles.png) no-repeat scroll 0 100%; min-height:134px; position:absolute; right:11%; width:23%;}
+/*#8fd4ff*/
+a{color:#356AA0; text-decoration:none}
+img{border:0}
+h1{ float:left; margin:20px 0 50px; font-size:4em}
+h2{font-size:2.4em; font-weight:normal; margin:0 0 20px}
+h2 a:hover, .contentheading a:hover{background:#356AA0; color:#fff}
+.hr{color:#ccc}
+p{margin:5px 0 15px; line-height:1.6em}
+
+.widgetWallMenu{ border-bottom: 2px dashed #ccc }
+.widgetWallContainer{color:#333; line-height:130%; margin:0 auto; height: 100%}
+/*#widgetWallLeftnav{float:left; margin:0; min-height:100%; padding: 7px; width:200px; background:#E7ECF1 none repeat-y scroll 100% 0; border-right:1px solid #CCCCCC; }*/
+
+#widgetWallMangPageTop{ background: transparent none repeat scroll 0 0;}
+#widgetWallContent {min-height: 900px; margin-top: 1px; background: #bebebe }
+#widgetWallContent .widgetColumn{margin:0 2px; width:33%;; min-height: 400px; }
+#widgetWallContent .permenant{height: 2px }
+
+.tuiyoWidget{ border: 3px solid #c8c7c7; margin: 10px 5px; }
+.tuiyoWidget:hover{-moz-box-shadow:4px 4px 8px #272727; -webkit-box-shadow:4px 4px 8px #272727;}
+.tuiyoWidget .tuiyoWidgetHead{background: /*#356AA0*/#bc2825 none scroll no-repeat 0 0; padding:3px 5px 0; cursor:move; border-bottom: 4px solid #bc2825; }
+.tuiyoWidget .tuiyoWidgetHead a{ display:inline; height:14px; margin:3px 0px 0px 3px; text-indent:-9999em;}
+.tuiyoWidget .tuiyoWidgetHead a.collapse {width:14px; float:left; background:transparent url(../images/buttons.gif) no-repeat scroll -52px 0; margin:4px 5px 0 0;}
+.tuiyoWidget .tuiyoWidgetHead a.expand{width:14px; float:left; background: transparent url(../images/buttons.gif) no-repeat scroll -38px 0; margin:4px 5px 0 0;}
+.tuiyoWidget .tuiyoWidgetHead a.close {width:14px; float:right; background:transparent url(../images/buttons.gif) no-repeat scroll -52px 0;}
+.tuiyoWidget .tuiyoWidgetHead a.edit {width:24px; float: right; background:transparent url(../images/buttons.gif) no-repeat scroll 0 0;}
+.tuiyoWidget .tuiyoWidgetHead a.remove {width:14px; float: right; background:transparent url(../images/buttons.gif) no-repeat scroll -24px 0;}
+.tuiyoWidget .tuiyoWidgetHead h3{float:left; font-size:13px !important; text-shadow:0 1px 0 #777777;}
+.tuiyoWidget .tuiyoWidgetContent{padding: 4px; background:#fff none repeat scroll 0 0; border: 4px solid #bc2825;}
+.tuiyoWidget .tuiyoWidgetEditbox{padding: 4px; border-left:4px solid #bc2825; border-right:4px solid #bc2825; background-color: #272727; color: #fff; display: none; border-bottom: 4px solid #bc2825 }
+.tuiyoWidget .tuiyoWidgetEditbox input.color{border:2px solid #CCCCCC; height:18px; width:18px;}
+.widgetPlaceholder{ border: 4px dashed #999999; margin: 10px 5px; }
+
+.closeTab{ width:14px; float: right; background:transparent url(../images/buttons.gif) no-repeat scroll -24px 51%; text-indent: -999em; margin-left: 12px}
+
+/*Green Widget*/
+.greenWidget .tuiyoWidgetContent{ border: 4px solid #8DC100;}
+.greenWidget .tuiyoWidgetHead{ background: #8DC100 none scroll no-repeat 0 0;  border-bottom: 4px solid #8DC100; }
+.greenWidget .tuiyoWidgetEditbox{border-left: 4px solid #8DC100; border-right: 4px solid #8DC100;  border-bottom: 4px solid #8DC100; }
+
+/*Blue Widget*/
+.blueWidget .tuiyoWidgetContent{ border: 4px solid #356AA0;}
+.blueWidget .tuiyoWidgetHead{ background: #356AA0 none scroll no-repeat 0 0;  border-bottom: 4px solid #356AA0;}
+.blueWidget .tuiyoWidgetEditbox{border-left: 4px solid #356AA0; border-right: 4px solid #356AA0;  border-bottom: 4px solid #356AA0; }
+
+/*Orange Widget*/
+.orangeWidget .tuiyoWidgetContent{ border: 4px solid orange;}
+.orangeWidget .tuiyoWidgetHead{ background: orange none scroll no-repeat 0 0;  border-bottom: 4px solid orange;}
+.orangeWidget .tuiyoWidgetEditbox{border-left: 4px solid orange; border-right: 4px solid orange;  border-bottom: 4px solid orange; }
+
+/*Yellow Widget*/
+.yellowWidget .tuiyoWidgetContent{ border: 4px solid yellow;}
+.yellowWidget .tuiyoWidgetHead{ background: yellow none scroll no-repeat 0 0;  border-bottom: 4px solid yellow;}
+.yellowWidget .tuiyoWidgetEditbox{border-left: 4px solid yellow; border-right: 4px solid yellow;  border-bottom: 4px solid yellow; }
+
+/*Violet Widget*/
+.violetWidget .tuiyoWidgetContent{ border: 4px solid violet;}
+.violetWidget .tuiyoWidgetHead{ background: violet none scroll no-repeat 0 0;  border-bottom: 4px solid violet;}
+.violetWidget .tuiyoWidgetEditbox{border-left: 4px solid violet; border-right: 4px solid violet; border-bottom: 4px solid violet; }
+
+/*Cyan Widget*/
+.cyanWidget .tuiyoWidgetContent{ border: 4px solid cyan;}
+.cyanWidget .tuiyoWidgetHead{ background: cyan none scroll no-repeat 0 0;  border-bottom: 4px solid cyan;}
+.cyanWidget .tuiyoWidgetEditbox{border-left: 4px solid cyan; border-right: 4px solid cyan; border-bottom: 4px solid cyan; }
+
+/*Cyan Widget*/
+.pinkWidget .tuiyoWidgetContent{ border: 4px solid pink;}
+.pinkWidget .tuiyoWidgetHead{ background: pink none scroll no-repeat 0 0; border-bottom: 4px solid pink; }
+.pinkWidget .tuiyoWidgetEditbox{border-left: 4px solid pink; border-right: 4px solid pink; border-bottom: 4px solid pink;  }
+
+.widgetWallTitle{margin:auto; padding: 40px; width:50%;}
+.widgetWallMainPage{line-height:1.6em; /*padding:0 14px;*/}
+
+.widgetWallDescription{/*border-top:1px solid #ccc;*/ padding-bottom:5px; /*border-bottom:1px solid #CCC*/}
+#pageNavigation{margin-top:10px;  list-style:none; list-style:none; margin: 8px auto}
+#pageNavigation li{list-style:none; font-size:12px; font-weight:400; min-height:28px; line-height:28px; cursor:pointer}
+#pageNavigation li.current, #pageNavigation li.current:hover{background:transparent url(../images/CurrentFolder.png) repeat-x scroll 0 0; color:#FFF; font-weight:bold; margin-left:-7px; margin-right:-7px; padding-left:7px}
+#pageNavigation li.current a{color:#fff}
+#pageNavigation li:hover{background:#c4daf1; margin-left:-7px; margin-right:-7px; padding-left:7px; color: #777 !important }
+#pageNavigation li img{padding-right:6px; margin-bottom:-3px}
+#pageNavigation li form{}
+#pageNavigation li .searchIcon{float: left; margin-bottom: -4px; padding-top: 6px;}
+#pageNavigation li .searchInputText{border:1px solid #CCC; margin-right:-5px; padding:4px; width:145px; float: left}
+#pageNavigation li .searchSubmitButton{background:#F4F4F4 url(../images/searchgo.png) no-repeat scroll 50% 50%; border:1px solid #CCC; width:27px; min-height:17px;}
+
+
+#widgetWallPublisher{border:1px solid #e4e4e4; padding:5px; background:#EDF1F8 none repeat scroll 0pt 0pt; width:98%}
+#widgetWallPublisher .ptextinput{font-family:"Segoe UI","Lucida Grande",Arial,sans-serif; font-size:13px; height:42px; line-height:20px; width:98%}
+.widgetWallPublisherContainer{/*padding-bottom:8px; border-bottom:1px solid #ccc; margin-bottom:10px*/}
+#widgetWallPublisher .psubmit{width:100%; height:50px}
+
+ul.widgetPageTabItems li{background:#E6E6E6 none repeat-x scroll 0 0;color:#356AA0;cursor:pointer;display:inline;float:left;font-weight:bold;line-height:26px;margin-bottom:-1px;margin-right:4px;padding:0 12px;}
+ul.widgetPageTabItems li.current, ul.widgetSettingsTabs li.current{background: #BEBEBE; color: #fff ; /*border-bottom:1px solid #ddd */}
+ul.widgetPageTabItems li.current a, ul.widgetSettingsTabs li.current a{color: #fff !important; }
+ul.widgetPageTabItems li img, ul.widgetSettingsTabs li img{margin-bottom:-3px; padding-right:2px}
+ul.widgetPageTabItems, ul.widgetSettingsTabs{margin-left:15px; margin-right:15px}
+#widgetSettingsTabsDiv, #widgetWallPublisherTabs{ }
+
+ul.widgetPageTopItems li{float: left; display: inline; line-height: 29px; margin:0 14px; }
+/* Setttings */
+div.widgetWallsettingsBox{min-height: 260px; display: none; width: 100%; background: #272727; border-bottom: 2px solid #ccc; color: #fff !important}
+div.widgetWallsettingsBox .addContentMenu{ width: 200px; min-height: 300px; background: #313131; border-right: 1px solid #000; padding: 7px;  }
+.addContentMenu a{ color: #fff !important }
+#WidgetToggleAll, li.newTab{font-weight: bold; max-width: 1px;}
+
+.tuiyoWidget .tuiyoWidgetContent{border-top: none !important }
+
+#WidgetAddContent{padding-left: 20px; background: url(../icons/add.png) 0% 50% scroll no-repeat; }
+#WidgetToggleAll{ padding-left: 10px; background: url(../images/toggleWidgets.png) 0% 50% scroll no-repeat; text-indent: -9999em }
+li.newTab{padding-left: 15px; background: transparent url(../images/addWidgetTab.png) 0 50% no-repeat !important; text-indent: -9999em; margin:0 9px;}
+
+.tuiyoWidgetListItem{ }
+.contentpane{margin-top:-10px}

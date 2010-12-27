@@ -1,0 +1,15 @@
+{
+   "":"Project-Id-Version: Tuiyo for Joomla\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2009-12-02 14:51-0000\nPlural-Forms: nplurals=2; plural=1;\n\nPO-Revision-Date: \nLast-Translator: Livingstone Fultang <drstonyhills@tuiyo.co.uk>\nLanguage-Team: Tuiyo Team <hello@tuiyo.co.uk>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Poedit-Language: English\nX-Poedit-Country: UNITED KINGDOM\nX-Poedit-SourceCharset: utf-8\nX-Poedit-Basepath: .\nX-Poedit-SearchPath-0: C:\\wamp\\www\\joomla\\components\\com_tuiyo\\views\nX-Poedit-SearchPath-1: C:\\wamp\\www\\joomla\\components\\com_tuiyo\\controllers\nX-Poedit-SearchPath-2: C:\\wamp\\www\\joomla\\components\\com_tuiyo\\models\nX-Poedit-SearchPath-3: C:\\wamp\\www\\joomla\\components\\com_tuiyo\\plugins\n",
+   "See notes below":"Please see additional notes below",
+   "2. Upload queue":"2. Your upload queue",
+   "Cancel all":"Cancel all uploads",
+   "Avatar(JPEG, JPG, GIF, PNG)":"Avatar(JPEG, JPG, GIF, PNG)",
+   "3. Chose Resource Type":"3. Chose Resource Type",
+   "Photos (JPEG, JPG, GIF, PNG)":"Photos (JPEG, JPG, GIF, PNG)",
+   "Video (FLV, MPEG4)":"Video (FLV, MPEG4)",
+   "Music (MP3)":"Music (MP3)",
+   "4. Please Note:":"4. Please Note:",
+   "System uploader":"System uploader",
+   "All file names, must be shorter than 100 characters. By uploading this file(s) you accept our terms and conditions":"All file names, must be shorter than 100 characters. By uploading this file(s) you accept our terms and conditions",
+   "Your date of birth":"Your date of birth"
+}
