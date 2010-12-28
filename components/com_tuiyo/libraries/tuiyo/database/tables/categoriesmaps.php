@@ -54,6 +54,20 @@ class TuiyoTableCategoriesMaps extends JTable{
 	
 	public function addMap(){}
 	
+	public function mapToCategory($resourceid, $ownerid){
+		
+		$dbo 	= $this->_db;
+		$query 	= "SELECT * FROM #__tuiyocategories_maps as m WHERE m.resourceid=".$dbo->Quote( (int) $resourceid )
+				. "\n AND m.ownerid=".$dbo->Quote( (int)$ownerid );
+				
+		$dbo->setQuery( $query );
+		
+		$rows 	= $dbo->loadObjectList();
+		
+		return $rows;
+		
+	}
+	
 
     /**
      * TuiyoTableGroupsCategories::getInstance()

@@ -86,6 +86,28 @@ class TuiyoModelArticles extends JModel
 		return $stream;
 	}
 	
+	public function getArticle($articleId, $userId ){
+		
+		$aTable = TuiyoLoader::table("posts", true);
+		$cTable = TuiyoLoader::table("categoriesmaps", true );
+		
+		//Load the article;
+		$article = array();
+		
+		if( !$aTable->load( (int) $articleId ) ){
+			JError::raiseError(TUIYO_SERVER_ERROR, _("Could not load the article"));
+			return false;
+		}
+		
+		//Do Article Plugins and parsers;
+		
+		//Get the category association
+		$article['categories'] = $cTable->mapToCategory($aTable->ID , $aTable->author);
+		$article['story']	   = $aTable ;
+		
+		return $article;
+	}
+	
 	/**
 	 * 
 	 * Enter description here ...
